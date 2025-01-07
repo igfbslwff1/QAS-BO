@@ -1,0 +1,656 @@
+Running configuration:
+Namespace(atoms=None, charge=None, coords=None, depths=40, external_cycles=300, freeze_core=None, graph_dict='{\n    "0": {\n        "1": {\n            "weight": 1.0\n        },\n        "4": {\n            "weight": 1.0\n        },\n        "5": {\n            "weight": 1.0\n        },\n        "8": {\n            "weight": 1.0\n        }\n    },\n    "1": {\n        "0": {\n            "weight": 1.0\n        },\n        "2": {\n            "weight": 1.0\n        },\n        "4": {\n            "weight": 1.0\n        },\n        "6": {\n            "weight": 1.0\n        },\n        "9": {\n            "weight": 1.0\n        }\n    },\n    "2": {\n        "1": {\n            "weight": 1.0\n        },\n        "3": {\n            "weight": 1.0\n        },\n        "5": {\n            "weight": 1.0\n        },\n        "6": {\n            "weight": 1.0\n        },\n        "8": {\n            "weight": 1.0\n        }\n    },\n    "3": {\n        "2": {\n            "weight": 1.0\n        },\n        "4": {\n            "weight": 1.0\n        },\n        "5": {\n            "weight": 1.0\n        },\n        "7": {\n            "weight": 1.0\n        },\n        "9": {\n            "weight": 1.0\n        }\n    },\n    "4": {\n        "0": {\n            "weight": 1.0\n        },\n        "1": {\n            "weight": 1.0\n        },\n        "3": {\n            "weight": 1.0\n        },\n        "6": {\n            "weight": 1.0\n        },\n        "7": {\n            "weight": 1.0\n        }\n    },\n    "5": {\n        "0": {\n            "weight": 1.0\n        },\n        "2": {\n            "weight": 1.0\n        },\n        "3": {\n            "weight": 1.0\n        },\n        "6": {\n            "weight": 1.0\n        },\n        "8": {\n            "weight": 1.0\n        }\n    },\n    "6": {\n        "1": {\n            "weight": 1.0\n        },\n        "2": {\n            "weight": 1.0\n        },\n        "4": {\n            "weight": 1.0\n        },\n        "5": {\n            "weight": 1.0\n        },\n        "7": {\n            "weight": 1.0\n        },\n        "9": {\n            "weight": 1.0\n        }\n    },\n    "7": {\n        "3": {\n            "weight": 1.0\n        },\n        "4": {\n            "weight": 1.0\n        },\n        "6": {\n            "weight": 1.0\n        },\n        "8": {\n            "weight": 1.0\n        },\n        "9": {\n            "weight": 1.0\n        }\n    },\n    "8": {\n        "0": {\n            "weight": 1.0\n        },\n        "2": {\n            "weight": 1.0\n        },\n        "5": {\n            "weight": 1.0\n        },\n        "7": {\n            "weight": 1.0\n        },\n        "9": {\n            "weight": 1.0\n        }\n    },\n    "9": {\n        "1": {\n            "weight": 1.0\n        },\n        "3": {\n            "weight": 1.0\n        },\n        "6": {\n            "weight": 1.0\n        },\n        "7": {\n            "weight": 1.0\n        },\n        "8": {\n            "weight": 1.0\n        }\n    }\n}', internal_cycles=2000, mapper=None, multiplicity=None, problem='QAOA for the Max-Cut problem', qubits=10, remove_orbitals=None)
+Loaded graph weights:
+{'0': {'1': {'weight': 1.0}, '4': {'weight': 1.0}, '5': {'weight': 1.0}, '8': {'weight': 1.0}}, '1': {'0': {'weight': 1.0}, '2': {'weight': 1.0}, '4': {'weight': 1.0}, '6': {'weight': 1.0}, '9': {'weight': 1.0}}, '2': {'1': {'weight': 1.0}, '3': {'weight': 1.0}, '5': {'weight': 1.0}, '6': {'weight': 1.0}, '8': {'weight': 1.0}}, '3': {'2': {'weight': 1.0}, '4': {'weight': 1.0}, '5': {'weight': 1.0}, '7': {'weight': 1.0}, '9': {'weight': 1.0}}, '4': {'0': {'weight': 1.0}, '1': {'weight': 1.0}, '3': {'weight': 1.0}, '6': {'weight': 1.0}, '7': {'weight': 1.0}}, '5': {'0': {'weight': 1.0}, '2': {'weight': 1.0}, '3': {'weight': 1.0}, '6': {'weight': 1.0}, '8': {'weight': 1.0}}, '6': {'1': {'weight': 1.0}, '2': {'weight': 1.0}, '4': {'weight': 1.0}, '5': {'weight': 1.0}, '7': {'weight': 1.0}, '9': {'weight': 1.0}}, '7': {'3': {'weight': 1.0}, '4': {'weight': 1.0}, '6': {'weight': 1.0}, '8': {'weight': 1.0}, '9': {'weight': 1.0}}, '8': {'0': {'weight': 1.0}, '2': {'weight': 1.0}, '5': {'weight': 1.0}, '7': {'weight': 1.0}, '9': {'weight': 1.0}}, '9': {'1': {'weight': 1.0}, '3': {'weight': 1.0}, '6': {'weight': 1.0}, '7': {'weight': 1.0}, '8': {'weight': 1.0}}}
+
+------------The 1 th architecture optimization------------
+Current optimal ground state energy -14.451848503148948
+------------The 2 th architecture optimization------------
+Current optimal ground state energy -14.451848503148948
+------------The 3 th architecture optimization------------
+Current optimal ground state energy -14.451848503148948
+------------The 4 th architecture optimization------------
+Current optimal ground state energy -15.352180996217806
+------------The 5 th architecture optimization------------
+Current optimal ground state energy -15.352180996217806
+------------The 6 th architecture optimization------------
+Current optimal ground state energy -15.444838085449664
+------------The 7 th architecture optimization------------
+Current optimal ground state energy -15.444838085449664
+------------The 8 th architecture optimization------------
+Current optimal ground state energy -15.444838085449664
+------------The 9 th architecture optimization------------
+Current optimal ground state energy -15.444838085449664
+------------The 10 th architecture optimization------------
+Current optimal ground state energy -15.444838085449664
+------------The 11 th architecture optimization------------
+Current optimal ground state energy -16.976177148566904
+------------The 12 th architecture optimization------------
+Current optimal ground state energy -16.976177148566904
+------------The 13 th architecture optimization------------
+Current optimal ground state energy -16.976177148566904
+------------The 14 th architecture optimization------------
+Current optimal ground state energy -16.976177148566904
+------------The 15 th architecture optimization------------
+Current optimal ground state energy -16.976177148566904
+------------The 16 th architecture optimization------------
+Current optimal ground state energy -16.976177148566904
+------------The 17 th architecture optimization------------
+Current optimal ground state energy -16.976177148566904
+------------The 18 th architecture optimization------------
+Current optimal ground state energy -16.976177148566904
+------------The 19 th architecture optimization------------
+Current optimal ground state energy -16.976177148566904
+------------The 20 th architecture optimization------------
+Current optimal ground state energy -16.976177148566904
+------------The 21 th architecture optimization------------
+Current optimal ground state energy -16.976177148566904
+------------The 22 th architecture optimization------------
+Current optimal ground state energy -16.976177148566904
+------------The 23 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 24 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 25 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 26 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 27 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 28 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 29 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 30 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 31 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 32 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 33 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 34 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 35 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 36 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 37 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 38 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 39 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 40 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 41 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 42 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 43 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 44 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 45 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 46 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 47 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 48 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 49 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 50 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 51 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 52 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 53 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 54 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 55 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 56 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 57 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 58 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 59 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 60 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 61 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 62 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 63 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 64 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 65 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 66 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 67 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 68 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 69 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 70 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 71 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 72 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 73 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 74 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 75 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 76 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 77 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 78 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 79 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 80 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 81 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 82 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 83 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 84 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 85 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 86 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 87 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 88 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 89 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 90 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 91 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 92 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 93 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 94 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 95 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 96 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 97 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 98 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 99 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 100 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 101 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 102 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 103 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 104 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 105 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 106 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 107 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 108 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 109 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 110 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 111 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 112 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 113 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 114 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 115 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 116 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 117 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 118 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 119 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 120 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 121 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 122 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 123 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 124 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 125 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 126 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 127 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 128 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 129 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 130 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 131 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 132 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 133 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 134 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 135 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 136 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 137 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 138 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 139 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 140 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 141 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 142 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 143 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 144 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 145 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 146 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 147 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 148 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 149 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 150 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 151 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 152 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 153 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 154 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 155 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 156 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 157 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 158 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 159 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 160 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 161 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 162 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 163 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 164 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 165 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 166 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 167 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 168 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 169 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 170 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 171 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 172 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 173 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 174 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 175 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 176 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 177 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 178 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 179 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 180 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 181 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 182 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 183 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 184 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 185 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 186 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 187 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 188 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 189 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 190 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 191 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 192 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 193 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 194 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 195 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 196 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 197 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 198 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 199 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 200 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 201 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 202 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 203 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 204 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 205 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 206 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 207 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 208 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 209 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 210 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 211 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 212 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 213 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 214 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 215 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 216 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 217 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 218 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 219 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 220 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 221 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 222 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 223 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 224 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 225 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 226 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 227 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 228 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 229 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 230 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 231 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 232 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 233 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 234 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 235 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 236 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 237 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 238 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 239 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 240 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 241 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 242 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 243 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 244 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 245 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 246 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 247 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 248 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 249 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 250 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 251 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 252 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 253 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 254 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 255 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 256 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 257 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 258 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 259 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 260 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 261 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 262 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 263 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 264 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 265 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 266 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 267 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 268 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 269 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 270 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 271 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 272 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 273 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 274 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 275 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 276 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 277 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 278 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 279 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 280 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 281 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 282 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 283 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 284 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 285 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 286 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 287 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 288 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 289 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 290 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 291 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 292 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 293 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 294 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 295 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 296 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 297 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 298 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 299 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 300 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+------------The 301 th architecture optimization------------
+Current optimal ground state energy -18.984235524294725
+
+Updated p1 : [11.0, -8.0, 11.0, 11.0, 11.0, -8.0, -8.0, 11.0, -8.0, 11.0, 11.0, 11.0, 11.0, -8.0, 11.0, -8.0, 11.0, -8.0, -8.0, -8.0, -8.0, 11.0, 11.0, -8.0, -8.0, -8.0, -8.0, -8.0, -8.0, -8.0, 11.0, 11.0, -8.0, -8.0, -8.0, -8.0, -8.0, 11.0, 11.0, 11.0, -8.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, -8.0, -8.0, -8.0, 11.0, -8.0, 11.0, 11.0, 11.0, 11.0, -8.0, -8.0, 11.0, -8.0, -8.0, 11.0, 11.0, -8.0, -8.0, 11.0, 11.0, 11.0, -8.0, 11.0, 11.0, 11.0, 11.0, 11.0, -8.0, -8.0, -8.0, 11.0, 11.0, -8.0, 11.0, 11.0, -8.0, -8.0, -8.0, 11.0, 11.0, -8.0, -8.0, -8.0, 11.0, -8.0, -8.0, -8.0, 11.0, -8.0, -8.0, 11.0, 11.0, 11.0, 11.0, -8.0, 11.0, -8.0, -8.0, 11.0, -8.0, 11.0, 11.0, -8.0, -8.0, -8.0, -8.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, -8.0, 11.0, -8.0, 11.0, 11.0, -8.0, -8.0, -8.0, 11.0, 11.0, -8.0, 11.0, 11.0, 11.0, 11.0, 11.0, -8.0, 11.0, 11.0, 11.0, -8.0, -8.0, 11.0, -8.0, -8.0, -8.0, 11.0, -8.0, -8.0, -8.0, 11.0, -8.0, 11.0, -8.0, -8.0, 11.0, -8.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, -8.0, 11.0, 11.0, -8.0, 11.0, -8.0, 11.0, -8.0, 11.0, -8.0, 11.0, 11.0, -8.0, 11.0, 11.0, 11.0, -8.0, 11.0, 11.0, -8.0, -8.0, 11.0, 11.0, -8.0, -8.0, -8.0, -8.0, -8.0, 11.0, 11.0, 11.0, 11.0, -8.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, -8.0, -8.0, 11.0, -8.0, 11.0, 11.0, -8.0, -8.0, 11.0, -8.0, -8.0, 11.0, 11.0, -8.0, -8.0, 11.0, 11.0, -8.0, 11.0, 11.0, 11.0, -8.0, 11.0, -8.0, 11.0, 11.0, 11.0, 11.0, 11.0, -8.0, 11.0, -8.0, -8.0, -8.0, -8.0, 11.0, -8.0, 11.0, 11.0, -8.0, 11.0, 11.0, 11.0, -8.0, 11.0, 11.0, 11.0, -8.0, -8.0, -8.0, -8.0, -8.0, 11.0, 11.0, 11.0, -8.0, 11.0, -8.0, 11.0, 11.0, 11.0, -8.0, -8.0, 11.0, 11.0, -8.0, 11.0, 11.0, -8.0, 11.0, -8.0, -8.0, -8.0, 11.0, 11.0, -8.0, -8.0, -8.0, 11.0, -8.0, -8.0, 11.0, 11.0, -8.0, -8.0, 11.0, -8.0, -8.0, 11.0, 11.0, 11.0, 11.0, 11.0, -8.0, 11.0, -8.0, 11.0, -8.0, 11.0, -8.0, -8.0, -8.0, -8.0, -8.0, -8.0, 11.0, -8.0, 11.0, 11.0, 11.0, -8.0, -8.0, 11.0, 11.0, 11.0, -8.0, 11.0, 11.0, -8.0, 11.0, 11.0, -8.0, -8.0, -8.0, 11.0, 11.0, -8.0, 11.0, -8.0, -8.0, -8.0, 11.0, 11.0, -8.0, 11.0, 11.0, 11.0, 11.0, 11.0, -8.0, -8.0, -8.0, 11.0, 11.0, 11.0, 11.0, 11.0, -8.0, -8.0, 11.0, -8.0, -8.0, -8.0, -8.0, 11.0, -8.0, 11.0, -8.0, -8.0, -8.0, 11.0, -8.0, 11.0, -8.0, -8.0, 11.0, 11.0, 11.0, 11.0, -8.0, 11.0, 11.0, 11.0, 11.0, -8.0, 11.0, 11.0, -8.0, -8.0, 11.0, 11.0, -8.0, -8.0, 11.0, 11.0, -8.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, -8.0, 11.0]
+Optimal molecular ground state energy: -18.984235524294725
+Optimized angle parameters: [ 1.80262667  4.15234682 -0.36600264  4.7003609   1.26128779  6.42565245
+  6.19173819  2.83979707  1.56532386  0.07257437  2.30397658  3.15529221
+  3.16348255  0.54200104  4.33892861  2.73251102  6.00540228  6.40374408
+  3.15752093  5.63155114  5.28594029  0.4513746   6.10941764  5.46487532
+  3.88183807  1.83147246  0.99250917  5.53146572  0.59646506  1.65350104
+  4.01181871  4.90266154  1.85809614  1.58412658  0.68791167 -0.82823823
+  1.00574141  2.77125099  2.93265593  1.73959945  1.582754    4.67746165
+  1.55355003  3.63776486  5.35100179  3.87191217  5.26330698  4.3639188
+  3.14036057  2.98731689  5.02165558  3.14172288  4.2330802   2.24081395
+  3.63930434  1.95595492  1.98168424  1.9698158   3.80574399  3.36822256
+  1.1915618   0.02443747  3.41227656  1.54022064  4.7750744   5.09089859
+  3.38924055  0.30105989  3.81778865  3.05818801  2.91888451  0.45753833
+  2.44179355  4.78891451  4.77615466  4.86428842 -0.44486152  4.0828909
+  1.57821768  5.74941853  3.22923391  4.49357968  5.27249546  0.23755135
+  5.02350621  7.68576426  3.15064164 -0.14267625  1.9087618   1.80388226
+  1.23857411  0.96516279  0.67455047  3.44885931  4.15985142  5.18008943
+  1.83461776  1.33674744  6.25449202  1.99658544  2.24993209  0.97370198
+  5.724483    4.93738433  0.60694291  4.47580162  3.16593433  5.18688994
+  1.26302407  5.16691427  1.26065912  2.43837067  4.238163    4.47282269
+  3.08116724  4.14569225  4.1180897   3.54676897  4.47912044  4.48947529
+  2.91880639]
+Depth: 39
+Final Statevector:
+ Statevector([-7.35913232e-09-4.44195756e-08j,
+             -2.91781020e-06-2.54727800e-06j,
+              1.29420289e-09+1.45888264e-10j, ...,
+             -4.29061314e-05-1.30835441e-06j,
+             -7.86651738e-09+6.93463047e-08j,
+             -2.06941462e-05-3.47512295e-06j],
+            dims=(2, 2, 2, 2, 2, 2, 2, 2, 2, 2))
+Standard: -18.999999999999993
+Error: 0.015764475705267955
+
+The value of the Unweighted Max-Cut problem is: 19.0
+The corresponding grouping scheme is as follows:
+[0 0 1 0 1 1 0 1 0 1]
+[0 1 0 1 0 0 1 0 1 0]
+[1 0 1 0 1 1 0 1 0 1]
+[1 1 0 1 0 0 1 0 1 0]
+
+State dictionary:
+{'0000000000': 2.027255521454047e-15, '0000000001': 1.500224156411521e-11, '0000000010': 1.6962445190300176e-18, '0000000011': 3.672164505895631e-13, '0000000100': 1.5051103385408644e-15, '0000000101': 3.71603978316719e-09, '0000000110': 2.30011098805683e-17, '0000000111': 4.248159033131758e-12, '0000001000': 9.673111745807264e-18, '0000001001': 1.0095920558505929e-12, '0000001010': 4.000576312242839e-23, '0000001011': 2.5960006562844257e-17, '0000001100': 4.4275352293684836e-14, '0000001101': 4.298343766921344e-09, '0000001110': 6.496380506458534e-19, '0000001111': 1.3102010869813424e-13, '0000010000': 6.0042222314238e-13, '0000010001': 8.011822784978948e-08, '0000010010': 1.828445149748967e-16, '0000010011': 2.477941513137556e-11, '0000010100': 6.982216369756693e-11, '0000010101': 1.1904971217644323e-07, '0000010110': 6.774694399286203e-14, '0000010111': 1.0960748664433608e-08, '0000011000': 2.1748682049980385e-16, '0000011001': 2.408615290829319e-11, '0000011010': 2.1527602240308623e-20, '0000011011': 3.4760816542495972e-15, '0000011100': 8.462464240101145e-14, '0000011101': 2.828238003451396e-08, '0000011110': 5.2124311676349993e-17, '0000011111': 1.1741946619826536e-11, '0000100000': 2.2012888770683682e-14, '0000100001': 1.6497714070330436e-09, '0000100010': 5.97188769714946e-20, '0000100011': 6.933916535808279e-15, '0000100100': 1.8831151330256238e-11, '0000100101': 1.3774030786302739e-08, '0000100110': 1.3404807789178107e-14, '0000100111': 2.5382635437294004e-09, '0000101000': 1.7579722028444503e-18, '0000101001': 5.004412899258113e-13, '0000101010': 2.134164351473021e-21, '0000101011': 3.365107484093006e-16, '0000101100': 3.436194940717988e-16, '0000101101': 4.317539553176433e-11, '0000101110': 1.6161879753179444e-18, '0000101111': 2.735073141693287e-13, '0000110000': 1.263900111538101e-09, '0000110001': 0.00013790612597951906, '0000110010': 9.416997584274612e-14, '0000110011': 1.4590346663791426e-08, '0000110100': 7.097221232446341e-12, '0000110101': 5.38502504239859e-08, '0000110110': 5.308673233196708e-15, '0000110111': 9.701584922123206e-10, '0000111000': 7.571319035393844e-14, '0000111001': 1.0863827890232648e-08, '0000111010': 2.4638181616649008e-17, '0000111011': 3.7438458977618085e-12, '0000111100': 2.7188545977786894e-11, '0000111101': 1.5047890292843982e-05, '0000111110': 5.926095977353528e-14, '0000111111': 1.1630401113387651e-08, '0001000000': 4.1464604524182547e-16, '0001000001': 2.5450584804686613e-11, '0001000010': 3.782649965985626e-18, '0001000011': 3.129535369299386e-13, '0001000100': 2.1776750676592187e-11, '0001000101': 4.8519276440495235e-09, '0001000110': 1.6672912845579227e-14, '0001000111': 3.04656822344888e-09, '0001001000': 1.2651627156405275e-17, '0001001001': 7.904034188465857e-13, '0001001010': 1.0374699031266167e-23, '0001001011': 2.6736118890319873e-18, '0001001100': 6.27729967328237e-15, '0001001101': 7.340083167439002e-10, '0001001110': 1.4241157195487215e-20, '0001001111': 9.318565928030846e-15, '0001010000': 2.6124745379644423e-15, '0001010001': 1.2710028702417862e-10, '0001010010': 1.0080652892976751e-19, '0001010011': 7.571950218038054e-14, '0001010100': 2.023382382523485e-15, '0001010101': 4.10496176888406e-10, '0001010110': 2.8004364622620495e-18, '0001010111': 8.755229488057845e-13, '0001011000': 9.135349651784201e-19, '0001011001': 1.0645202901892861e-12, '0001011010': 7.555567492000362e-21, '0001011011': 1.2903524556507993e-15, '0001011100': 1.855950427081508e-16, '0001011101': 8.783017635048873e-10, '0001011110': 6.180835426428363e-19, '0001011111': 3.9927831266674796e-13, '0001100000': 4.0649618962940675e-16, '0001100001': 2.030766976617259e-10, '0001100010': 2.9084738959298936e-19, '0001100011': 1.1848181022607654e-13, '0001100100': 2.864050716601354e-14, '0001100101': 8.078068233203992e-09, '0001100110': 8.592175266016e-18, '0001100111': 2.099870098984762e-12, '0001101000': 5.846033357487646e-18, '0001101001': 1.4334812477821504e-12, '0001101010': 2.893250679460562e-21, '0001101011': 5.8138656749257415e-16, '0001101100': 4.641226346639284e-15, '0001101101': 1.1268284035674309e-09, '0001101110': 3.241848491408713e-18, '0001101111': 6.469208122731102e-13, '0001110000': 3.0754265124752335e-15, '0001110001': 6.239261289513507e-10, '0001110010': 3.533025711334658e-18, '0001110011': 4.949259902893592e-13, '0001110100': 1.5180722839636236e-11, '0001110101': 1.0110595046865558e-07, '0001110110': 7.317385975743084e-15, '0001110111': 1.6417383102497393e-09, '0001111000': 5.835423425211941e-14, '0001111001': 4.992772856867545e-09, '0001111010': 1.7879587795119002e-19, '0001111011': 1.0093881484335096e-14, '0001111100': 2.4175673281271407e-11, '0001111101': 3.571740534906577e-11, '0001111110': 1.8602442331330283e-14, '0001111111': 3.3985884331867052e-09, '0010000000': 1.3619646881947642e-14, '0010000001': 1.4585762972583847e-09, '0010000010': 3.0221705618420286e-20, '0010000011': 2.5730903012059913e-14, '0010000100': 4.127615224331746e-10, '0010000101': 4.43120859949172e-05, '0010000110': 1.8337086397781885e-14, '0010000111': 3.1786020395274985e-09, '0010001000': 2.2044085056951044e-18, '0010001001': 9.928379730889384e-15, '0010001010': 1.7757048920532373e-21, '0010001011': 2.8205036918849923e-16, '0010001100': 1.6297535618109626e-16, '0010001101': 4.8318867263733e-11, '0010001110': 2.6860239483332766e-18, '0010001111': 3.934152048606979e-13, '0010010000': 5.275081483144398e-13, '0010010001': 5.486316803064901e-08, '0010010010': 6.725148593361744e-17, '0010010011': 9.43213086242167e-12, '0010010100': 7.56638322227184e-11, '0010010101': 8.390511267883442e-05, '0010010110': 3.2695338507957383e-13, '0010010111': 6.977756465980634e-08, '0010011000': 2.3022549843676583e-16, '0010011001': 3.269194435746427e-11, '0010011010': 6.029144208827001e-20, '0010011011': 9.074652633216555e-15, '0010011100': 1.1627066119876012e-16, '0010011101': 9.330491070851592e-10, '0010011110': 1.3253947393166747e-17, '0010011111': 2.349050617204554e-12, '0010100000': 7.228962791087504e-14, '0010100001': 7.642519292274591e-09, '0010100010': 7.773091606903445e-19, '0010100011': 2.4648127653627226e-13, '0010100100': 4.466230764391855e-12, '0010100101': 4.311330729746258e-07, '0010100110': 4.764211751908255e-15, '0010100111': 2.370186245148224e-10, '0010101000': 2.7466322335552886e-18, '0010101001': 1.6229076314652987e-13, '0010101010': 6.413965306374567e-23, '0010101011': 6.6929421323018896e-18, '0010101100': 1.4885641656823516e-15, '0010101101': 5.935823371152702e-10, '0010101110': 3.862256392448092e-18, '0010101111': 6.138210472129876e-13, '0010110000': 1.5473214084249492e-11, '0010110001': 2.0144982666591924e-09, '0010110010': 9.12579896387718e-14, '0010110011': 1.084101049788221e-08, '0010110100': 4.6093979669565625e-07, '0010110101': 1.069552465191149e-07, '0010110110': 3.5375488127389714e-10, '0010110111': 6.462624628014186e-05, '0010111000': 2.2376250804031009e-13, '0010111001': 2.82579682224031e-08, '0010111010': 3.087420926250036e-17, '0010111011': 4.954925282278679e-12, '0010111100': 7.643234605830816e-13, '0010111101': 3.290582512885555e-08, '0010111110': 8.258359492718679e-17, '0010111111': 3.7331282194217625e-11, '0011000000': 9.759696034850192e-14, '0011000001': 6.495764875788565e-09, '0011000010': 8.061939224612756e-20, '0011000011': 1.487433285342567e-14, '0011000100': 2.6091292194713124e-13, '0011000101': 4.917175266080467e-09, '0011000110': 4.7659655479632326e-15, '0011000111': 4.277637295175897e-10, '0011001000': 5.089573079313969e-19, '0011001001': 9.084598154493482e-14, '0011001010': 8.740381977569776e-22, '0011001011': 9.73218267662202e-17, '0011001100': 1.4809924050804037e-14, '0011001101': 6.226599933263818e-10, '0011001110': 3.026618602344147e-19, '0011001111': 7.898211999625653e-14, '0011010000': 2.321375370850532e-14, '0011010001': 1.9797916058848105e-11, '0011010010': 2.1896479963968502e-17, '0011010011': 3.542855184865727e-12, '0011010100': 4.920591074092605e-12, '0011010101': 4.560184245285692e-07, '0011010110': 1.6454941787773008e-14, '0011010111': 1.3745857615760455e-09, '0011011000': 1.518864729127047e-18, '0011011001': 1.5037178595094382e-13, '0011011010': 5.86100844997526e-22, '0011011011': 3.324337057041313e-17, '0011011100': 3.279609931856849e-14, '0011011101': 6.074218109692858e-09, '0011011110': 4.669315440425074e-18, '0011011111': 1.140008873904421e-12, '0011100000': 9.283455932191872e-15, '0011100001': 4.944218521427582e-13, '0011100010': 1.139104060321966e-17, '0011100011': 1.8200942415326834e-12, '0011100100': 6.37854047746278e-13, '0011100101': 5.421386785793867e-10, '0011100110': 1.2639830380087687e-14, '0011100111': 1.3137679834611048e-09, '0011101000': 8.38081422253201e-20, '0011101001': 6.332806199924757e-14, '0011101010': 4.614699193071319e-22, '0011101011': 8.726988349587407e-17, '0011101100': 6.153030884921127e-15, '0011101101': 2.5826834731333357e-10, '0011101110': 1.4570931000750776e-20, '0011101111': 1.3999896674986844e-14, '0011110000': 4.5820715417848576e-14, '0011110001': 4.72182349409049e-09, '0011110010': 2.885954928697466e-18, '0011110011': 4.2882773391020165e-13, '0011110100': 1.1301887594394107e-12, '0011110101': 7.278516605992514e-10, '0011110110': 5.953579109313054e-16, '0011110111': 1.288423901049844e-10, '0011111000': 7.880003323450846e-14, '0011111001': 7.245205759110677e-09, '0011111010': 1.9767759202808788e-19, '0011111011': 6.725395662426679e-14, '0011111100': 1.6569826252962517e-11, '0011111101': 5.092878155446574e-10, '0011111110': 1.2825672237297256e-14, '0011111111': 2.343802004099045e-09, '0100000000': 1.0663857630019466e-15, '0100000001': 5.5029487121014815e-11, '0100000010': 5.222551942348444e-20, '0100000011': 3.3846871949994136e-14, '0100000100': 5.982861435881943e-14, '0100000101': 9.663708442081552e-09, '0100000110': 1.90204673294843e-17, '0100000111': 2.6082332040247336e-12, '0100001000': 2.0486835013750767e-18, '0100001001': 7.386970860801492e-15, '0100001010': 1.8548286406175335e-21, '0100001011': 2.837262671392259e-16, '0100001100': 3.90795241743967e-15, '0100001101': 3.9442339794504453e-10, '0100001110': 2.5826079503023544e-19, '0100001111': 1.030637168684082e-14, '0100010000': 1.6031878984639451e-12, '0100010001': 1.5328809155063153e-07, '0100010010': 6.950249641768141e-17, '0100010011': 1.0553965270512992e-11, '0100010100': 1.6756317375532753e-11, '0100010101': 8.05395734201855e-07, '0100010110': 2.9204459636825854e-14, '0100010111': 3.06719703417966e-09, '0100011000': 2.540825528810584e-16, '0100011001': 3.872333855347195e-11, '0100011010': 7.068245225132092e-20, '0100011011': 1.1107257765969064e-14, '0100011100': 2.5565087404765685e-13, '0100011101': 1.972130877298806e-08, '0100011110': 2.0120766515336985e-18, '0100011111': 1.904405260547861e-13, '0100100000': 6.761771140197215e-16, '0100100001': 7.491546232272757e-11, '0100100010': 8.285159741486843e-19, '0100100011': 7.499571623600791e-14, '0100100100': 1.6818335641823823e-12, '0100100101': 1.555861122196462e-07, '0100100110': 1.1525989412215651e-15, '0100100111': 3.3895998898749647e-11, '0100101000': 4.152262064643398e-18, '0100101001': 3.832557086309412e-13, '0100101010': 6.627270385158586e-23, '0100101011': 1.659989182493038e-17, '0100101100': 5.4657769674311204e-14, '0100101101': 9.07240873072701e-09, '0100101110': 1.097097667183357e-17, '0100101111': 2.0755980781559225e-12, '0100110000': 2.4835039097614447e-10, '0100110001': 2.6644989651802535e-05, '0100110010': 5.684590555246054e-14, '0100110011': 7.046228113891842e-09, '0100110100': 2.046415979017007e-13, '0100110101': 2.680810990464681e-08, '0100110110': 7.92682947297698e-16, '0100110111': 4.361254166414202e-11, '0100111000': 2.892268399759078e-13, '0100111001': 3.826478490045986e-08, '0100111010': 4.083480076544657e-17, '0100111011': 6.883956912391955e-12, '0100111100': 7.389523692957791e-12, '0100111101': 8.623222237329079e-07, '0100111110': 3.286798803704887e-15, '0100111111': 1.0277809387065401e-09, '0101000000': 1.538781434797412e-13, '0101000001': 1.2728106785348485e-08, '0101000010': 8.597693597726493e-19, '0101000011': 1.436578082478657e-13, '0101000100': 1.6011688901120275e-12, '0101000101': 1.7273571925297095e-07, '0101000110': 2.3754381566689943e-15, '0101000111': 1.2278307543878133e-10, '0101001000': 1.1829017627576785e-18, '0101001001': 1.639684362344958e-13, '0101001010': 9.902748842023093e-22, '0101001011': 1.0440469113504419e-16, '0101001100': 2.918654510621443e-14, '0101001101': 3.3885897384528727e-09, '0101001110': 1.2014760963020236e-18, '0101001111': 2.385683786856548e-13, '0101010000': 6.3991036069147085e-15, '0101010001': 3.9869407065569e-11, '0101010010': 5.616361430593429e-18, '0101010011': 1.1946075805571469e-12, '0101010100': 1.4971750287070784e-13, '0101010101': 1.4366570520612859e-08, '0101010110': 7.243796535967499e-18, '0101010111': 8.633062764792016e-13, '0101011000': 6.016246465522429e-19, '0101011001': 6.634499027779972e-14, '0101011010': 7.230939891399335e-22, '0101011011': 7.02543839024935e-17, '0101011100': 3.662128700276401e-13, '0101011101': 3.871241048487098e-08, '0101011110': 1.9935737846581463e-17, '0101011111': 2.9339185399070884e-12, '0101100000': 1.4074388161474036e-15, '0101100001': 8.470380808920659e-11, '0101100010': 3.268530232734283e-18, '0101100011': 6.61301116625093e-13, '0101100100': 2.698228316243199e-13, '0101100101': 3.158819146208394e-08, '0101100110': 1.851312594860659e-17, '0101100111': 2.9089650774427046e-12, '0101101000': 1.1890191056744253e-19, '0101101001': 1.4631521798136924e-13, '0101101010': 1.1387497936159253e-21, '0101101011': 2.3134122418921853e-16, '0101101100': 2.7614154315144506e-14, '0101101101': 6.21292879003526e-09, '0101101110': 1.3579986961876163e-17, '0101101111': 2.510781963750704e-12, '0101110000': 5.1795011859639556e-14, '0101110001': 6.064797714908702e-09, '0101110010': 3.7530287985831115e-18, '0101110011': 6.695413973635699e-13, '0101110100': 4.057665323505246e-12, '0101110101': 7.602537246612215e-08, '0101110110': 2.565609792225186e-16, '0101110111': 1.972906934725297e-10, '0101111000': 7.70303141609165e-14, '0101111001': 8.25225202786953e-09, '0101111010': 5.866890229906483e-19, '0101111011': 2.1816162986148905e-13, '0101111100': 3.642972957948033e-12, '0101111101': 3.914828520424833e-07, '0101111110': 2.703643037103212e-15, '0101111111': 1.4805287132160744e-10, '0110000000': 5.911032279053394e-15, '0110000001': 7.024509182114015e-12, '0110000010': 6.549766570184578e-18, '0110000011': 1.0766734510898836e-12, '0110000100': 1.647767718102143e-13, '0110000101': 4.740627661931498e-09, '0110000110': 5.878828863044641e-15, '0110000111': 5.224631905477528e-10, '0110001000': 9.468097534200186e-18, '0110001001': 1.1200854490008952e-12, '0110001010': 1.562631060449438e-22, '0110001011': 6.086948798572096e-17, '0110001100': 2.1936140700294387e-14, '0110001101': 2.363453098596083e-09, '0110001110': 5.316267295499457e-19, '0110001111': 1.3193226813986463e-13, '0110010000': 1.4195583983851756e-12, '0110010001': 1.8405120459349514e-07, '0110010010': 2.2017998635183212e-16, '0110010011': 3.4453433800096314e-11, '0110010100': 1.328955666243499e-09, '0110010101': 0.00012480451896247286, '0110010110': 6.585195362282893e-14, '0110010111': 6.395979269638616e-09, '0110011000': 3.075394521251178e-16, '0110011001': 3.3420729474270157e-11, '0110011010': 2.6650333778817608e-20, '0110011011': 4.212164988445285e-15, '0110011100': 2.8999988259640003e-14, '0110011101': 4.718166887762435e-09, '0110011110': 3.491618806288658e-18, '0110011111': 8.877137551517849e-13, '0110100000': 2.5558514750737674e-14, '0110100001': 1.605848637456327e-09, '0110100010': 1.5849135498403738e-18, '0110100011': 1.7008250628919483e-13, '0110100100': 4.420656718525962e-11, '0110100101': 1.3968151567249915e-09, '0110100110': 3.427803494795106e-14, '0110100111': 6.26561639645749e-09, '0110101000': 1.5377993754654556e-19, '0110101001': 3.564189572483376e-15, '0110101010': 4.9636265025603655e-22, '0110101011': 6.395603492802817e-17, '0110101100': 2.1812099848793995e-14, '0110101101': 2.7575152811895067e-09, '0110101110': 1.7721227760013204e-18, '0110101111': 3.574956428915933e-13, '0110110000': 2.634648632068049e-09, '0110110001': 0.0002827116884166233, '0110110010': 9.151259499642545e-14, '0110110011': 1.788236013085919e-08, '0110110100': 6.999203604371288e-08, '0110110101': 0.007511084755570451, '0110110110': 5.173680165474242e-11, '0110110111': 2.8447396658457974e-06, '0110111000': 9.806048664706866e-14, '0110111001': 1.2300393622876537e-08, '0110111010': 2.019398235812987e-17, '0110111011': 3.000677351235938e-12, '0110111100': 1.3373679631806194e-12, '0110111101': 1.1560898330734247e-08, '0110111110': 9.110482156622545e-16, '0110111111': 2.0724002226870225e-10, '0111000000': 9.387101857062048e-16, '0111000001': 7.63023233825988e-11, '0111000010': 2.759777555900345e-18, '0111000011': 1.99067502088881e-13, '0111000100': 3.3057165529293423e-10, '0111000101': 3.549503499226149e-05, '0111000110': 1.47102805857112e-14, '0111000111': 2.54858778330457e-09, '0111001000': 1.2922763507986937e-17, '0111001001': 9.832733192405296e-13, '0111001010': 3.2045660911993037e-23, '0111001011': 4.861419761491751e-18, '0111001100': 9.553889888971209e-16, '0111001101': 2.929699563391808e-11, '0111001110': 1.421613037595214e-19, '0111001111': 1.12728891955092e-15, '0111010000': 4.936217295104355e-14, '0111010001': 4.950925394705693e-09, '0111010010': 1.6400761194506554e-19, '0111010011': 4.150753035944638e-14, '0111010100': 1.3778730193650443e-09, '0111010101': 0.00014787797270811483, '0111010110': 5.74728602816427e-14, '0111010111': 1.0134415645290377e-08, '0111011000': 1.547776543350099e-18, '0111011001': 1.9135089121916019e-13, '0111011010': 5.847296271134248e-21, '0111011011': 1.1025012320840824e-15, '0111011100': 4.154927068144807e-14, '0111011101': 3.0082326086029394e-09, '0111011110': 2.1445846709722104e-19, '0111011111': 3.8145212551310423e-14, '0111100000': 3.7434524091329334e-14, '0111100001': 4.0269847851485325e-09, '0111100010': 1.2583626805975864e-19, '0111100011': 1.0877480498195211e-13, '0111100100': 5.879894075113019e-10, '0111100101': 6.309868868930026e-05, '0111100110': 2.3698083767220596e-14, '0111100111': 4.301475383162352e-09, '0111101000': 3.98051099699509e-18, '0111101001': 7.91113701840507e-13, '0111101010': 1.2912397699545804e-21, '0111101011': 2.508306039299138e-16, '0111101100': 4.51779161958035e-15, '0111101101': 6.986712019060266e-11, '0111101110': 2.5124795076371434e-19, '0111101111': 9.238832791746817e-14, '0111110000': 1.1677444766026552e-14, '0111110001': 1.220938430146533e-09, '0111110010': 2.2874216781722463e-18, '0111110011': 2.7747738716492077e-13, '0111110100': 2.03239743346483e-12, '0111110101': 2.2891796714063836e-07, '0111110110': 1.8023301402081947e-16, '0111110111': 3.631066421921768e-11, '0111111000': 3.78768725451913e-14, '0111111001': 4.0570988067761035e-09, '0111111010': 3.700675775622579e-20, '0111111011': 4.3633224541406826e-14, '0111111100': 2.505405900860602e-12, '0111111101': 2.5906416325100175e-07, '0111111110': 1.8440258360787244e-15, '0111111111': 9.842818524149478e-11, '1000000000': 5.612057364516433e-14, '1000000001': 6.125248779011861e-09, '1000000010': 4.191478710811687e-18, '1000000011': 6.490718892434716e-13, '1000000100': 3.86336034726284e-13, '1000000101': 4.7185582879833486e-08, '1000000110': 2.809070856809126e-17, '1000000111': 4.8230674330992656e-12, '1000001000': 7.718629613298511e-19, '1000001001': 4.129154491933293e-15, '1000001010': 1.4630717140705862e-21, '1000001011': 1.867059893674834e-16, '1000001100': 8.24598959545938e-15, '1000001101': 2.2855666004881334e-10, '1000001110': 1.2042066020795356e-18, '1000001111': 1.9366279024329336e-13, '1000010000': 5.498369839661488e-14, '1000010001': 1.8506850092123065e-08, '1000010010': 1.713146493689299e-17, '1000010011': 6.0608815956225316e-12, '1000010100': 1.3694187139354744e-09, '1000010101': 0.00014691824037466153, '1000010110': 3.7909279659183926e-14, '1000010111': 7.59036038817844e-09, '1000011000': 7.660360100600146e-18, '1000011001': 3.8467836932711196e-13, '1000011010': 1.1927865932045585e-20, '1000011011': 2.3917193172058616e-15, '1000011100': 7.936026616193973e-13, '1000011101': 1.0836677191623661e-07, '1000011110': 1.4847669175498537e-16, '1000011111': 2.262567162490819e-11, '1000100000': 1.8747968570327213e-14, '1000100001': 1.2809741500311035e-09, '1000100010': 6.712092494118447e-22, '1000100011': 2.640389645233778e-16, '1000100100': 3.7516440049786877e-10, '1000100101': 4.026429068100313e-05, '1000100110': 1.854635845145193e-14, '1000100111': 3.119040305558735e-09, '1000101000': 1.0608171346037698e-17, '1000101001': 1.5001377533368482e-12, '1000101010': 9.852410744210403e-22, '1000101011': 2.0673121136321314e-16, '1000101100': 1.1114891648499657e-14, '1000101101': 1.259871480763709e-09, '1000101110': 1.2095861236372737e-18, '1000101111': 2.275785777269105e-13, '1000110000': 4.666321573288756e-11, '1000110001': 4.100768281119323e-07, '1000110010': 3.821077659569593e-14, '1000110011': 8.269334842763355e-09, '1000110100': 1.3669501751918044e-10, '1000110101': 1.469289465467247e-05, '1000110110': 6.134315063389881e-15, '1000110111': 1.0634209377239884e-09, '1000111000': 1.622152373373109e-14, '1000111001': 4.143797347836352e-09, '1000111010': 8.501223404414055e-18, '1000111011': 1.921055274833915e-12, '1000111100': 7.438254581827071e-10, '1000111101': 9.599741165906678e-05, '1000111110': 9.665770243472437e-14, '1000111111': 1.585464405658149e-08, '1001000000': 1.078247812681469e-15, '1001000001': 1.0040938825154281e-10, '1001000010': 2.087933204243887e-18, '1001000011': 1.2152254909420172e-13, '1001000100': 4.34695182696751e-10, '1001000101': 4.664708995068957e-05, '1001000110': 1.9290509635193252e-14, '1001000111': 3.3422454395287644e-09, '1001001000': 1.922229801320975e-17, '1001001001': 1.5326100371958602e-12, '1001001010': 7.076052882074701e-23, '1001001011': 9.49463680296627e-18, '1001001100': 1.8023517439594313e-16, '1001001101': 4.529909111003446e-11, '1001001110': 8.307452205910162e-19, '1001001111': 1.0154883226367859e-13, '1001010000': 2.8569801181277733e-14, '1001010001': 3.059175277432966e-09, '1001010010': 7.349112832549508e-18, '1001010011': 8.944701366088327e-13, '1001010100': 2.028392822495591e-13, '1001010101': 2.3094160247260008e-08, '1001010110': 2.1754955277956552e-17, '1001010111': 3.016578212063474e-12, '1001011000': 8.509261781117451e-17, '1001011001': 1.0573179906968724e-11, '1001011010': 5.984418981299427e-21, '1001011011': 1.1128795093075672e-15, '1001011100': 1.4797640703916084e-13, '1001011101': 1.757238392723293e-08, '1001011110': 2.2154305306815226e-17, '1001011111': 2.831956306493872e-12, '1001100000': 1.4130470826598838e-14, '1001100001': 1.7533027035929355e-09, '1001100010': 4.48913239391723e-18, '1001100011': 5.927096327064656e-13, '1001100100': 1.690741436617403e-13, '1001100101': 2.394110216892015e-08, '1001100110': 3.2458429386510677e-17, '1001100111': 4.795742728924735e-12, '1001101000': 2.2578831995477746e-17, '1001101001': 3.3235765404497663e-12, '1001101010': 5.230622158111261e-21, '1001101011': 8.454102158959159e-16, '1001101100': 1.8349073136123378e-14, '1001101101': 2.675232648007841e-09, '1001101110': 5.69770678573785e-18, '1001101111': 9.243284551245805e-13, '1001110000': 5.8539654635158954e-15, '1001110001': 9.377829711541101e-10, '1001110010': 5.226578300536587e-19, '1001110011': 1.5488232855472136e-13, '1001110100': 2.8344138013440403e-10, '1001110101': 3.040316190022759e-05, '1001110110': 2.0615044212121366e-14, '1001110111': 3.1438086797038934e-09, '1001111000': 2.753510177653729e-14, '1001111001': 1.511520383584038e-09, '1001111010': 1.4412534023605237e-18, '1001111011': 1.5269793853545316e-13, '1001111100': 4.847632193242634e-10, '1001111101': 5.202685817689444e-05, '1001111110': 2.1562768799762413e-14, '1001111111': 3.732979540984318e-09, '1010000000': 7.076393207554668e-16, '1010000001': 6.807073298011007e-14, '1010000010': 4.0251996468623844e-18, '1010000011': 4.769936590881316e-13, '1010000100': 2.073594441644302e-11, '1010000101': 2.9852742455909925e-08, '1010000110': 1.5887739424384497e-14, '1010000111': 2.9019299037131634e-09, '1010001000': 2.9708816316071233e-17, '1010001001': 3.1167578038014407e-12, '1010001010': 8.678758831647816e-22, '1010001011': 1.795042766913559e-16, '1010001100': 2.162569379225088e-14, '1010001101': 2.4726941053119965e-09, '1010001110': 6.530660076655414e-19, '1010001111': 1.637773359816043e-13, '1010010000': 5.697984612782916e-14, '1010010001': 1.7134625076570767e-09, '1010010010': 1.081950050308569e-17, '1010010011': 3.0577142901215793e-12, '1010010100': 6.507637693833255e-09, '1010010101': 0.000810444866168898, '1010010110': 7.59004678715944e-13, '1010010111': 1.1858100309629423e-07, '1010011000': 4.208592637745055e-17, '1010011001': 1.1440166705183594e-11, '1010011010': 1.9031664446109407e-20, '1010011011': 4.414051138985062e-15, '1010011100': 1.643700885298396e-13, '1010011101': 1.9486751426637262e-08, '1010011110': 1.3001877892976015e-17, '1010011111': 2.320577460518904e-12, '1010100000': 4.910433746730673e-15, '1010100001': 3.153327602126957e-11, '1010100010': 6.2966085396319895e-18, '1010100011': 8.699275742427596e-13, '1010100100': 8.770215742727528e-13, '1010100101': 2.5704939047803854e-08, '1010100110': 1.2935759156396041e-14, '1010100111': 1.1600562737972733e-09, '1010101000': 4.810952546855808e-18, '1010101001': 3.954712517436423e-13, '1010101010': 6.090225495960689e-24, '1010101011': 1.3582693670583723e-19, '1010101100': 2.0680611502856137e-14, '1010101101': 2.7614682217440023e-09, '1010101110': 1.8923738500249987e-18, '1010101111': 3.9130802843693277e-13, '1010110000': 3.126679578589904e-10, '1010110001': 3.3572392818581147e-05, '1010110010': 7.494680656060742e-16, '1010110011': 6.173932420971997e-10, '1010110100': 9.22433178949205e-06, '1010110101': 0.9898910479278763, '1010110110': 4.099832289538538e-10, '1010110111': 7.097766044027636e-05, '1010111000': 4.996842623380623e-15, '1010111001': 3.546743325621701e-09, '1010111010': 1.628594964900894e-17, '1010111011': 3.307071794573414e-12, '1010111100': 9.973755282262624e-12, '1010111101': 1.073180314654862e-06, '1010111110': 1.8372977150018524e-15, '1010111111': 2.355394202851688e-10, '1011000000': 1.2428423059161903e-13, '1011000001': 9.510292478131515e-09, '1011000010': 2.2808333361737755e-19, '1011000011': 3.153149214055645e-14, '1011000100': 1.9022938437003615e-12, '1011000101': 1.9032347757868964e-07, '1011000110': 1.8155728424572756e-15, '1011000111': 9.449471522597763e-11, '1011001000': 7.143168385946838e-19, '1011001001': 1.1404288322327818e-13, '1011001010': 1.8459383122389307e-23, '1011001011': 6.777695892347727e-19, '1011001100': 4.892774670982258e-14, '1011001101': 4.476524296616302e-09, '1011001110': 1.4395779954456764e-18, '1011001111': 2.0740533510556482e-13, '1011010000': 3.97342865216748e-13, '1011010001': 4.2280490869607185e-08, '1011010010': 1.2238260210990915e-17, '1011010011': 2.451886732276649e-12, '1011010100': 9.870256333414476e-12, '1011010101': 1.0151202888573487e-06, '1011010110': 9.963377483167696e-15, '1011010111': 6.413148200040867e-10, '1011011000': 4.732720467800439e-19, '1011011001': 3.226423842613199e-14, '1011011010': 1.6202092357535645e-21, '1011011011': 1.5005368629527605e-16, '1011011100': 4.189532691181611e-14, '1011011101': 7.102044203138461e-09, '1011011110': 1.7580627035631766e-17, '1011011111': 2.598438490962346e-12, '1011100000': 1.8359210802282189e-13, '1011100001': 1.968996577899363e-08, '1011100010': 5.805401443900247e-18, '1011100011': 1.189154350917123e-12, '1011100100': 1.2846626754045285e-11, '1011100101': 1.379614706953662e-06, '1011100110': 1.271291204682065e-15, '1011100111': 2.960610325917059e-11, '1011101000': 4.036660126982633e-18, '1011101001': 5.09832382708677e-13, '1011101010': 6.335559966277163e-22, '1011101011': 1.0670827783661944e-16, '1011101100': 2.1428591215231107e-14, '1011101101': 1.98375761015551e-09, '1011101110': 1.9238150762591777e-18, '1011101111': 2.296633606158246e-13, '1011110000': 4.4042763656182355e-15, '1011110001': 4.3525654696424466e-11, '1011110010': 8.067830232321275e-19, '1011110011': 1.9396965511614963e-13, '1011110100': 2.2101227377074244e-11, '1011110101': 2.3695641615609434e-06, '1011110110': 1.4914155307983561e-15, '1011110111': 2.300588280776437e-10, '1011111000': 2.316994478093702e-14, '1011111001': 9.613694712146486e-10, '1011111010': 2.0469808454464196e-18, '1011111011': 2.761466472636778e-13, '1011111100': 3.340491350270862e-10, '1011111101': 3.5862181567215686e-05, '1011111110': 1.489636454214362e-14, '1011111111': 2.5777022512285706e-09, '1100000000': 1.1109908312748213e-14, '1100000001': 1.189520788617952e-09, '1100000010': 2.5290539667530496e-18, '1100000011': 3.136232482048665e-13, '1100000100': 3.445159162788466e-14, '1100000101': 6.79718313661512e-09, '1100000110': 2.1347594228623416e-18, '1100000111': 7.008657029209062e-13, '1100001000': 2.8505973449286745e-17, '1100001001': 2.9959365696023334e-12, '1100001010': 6.727703458204342e-22, '1100001011': 1.502038807494481e-16, '1100001100': 5.422280312620155e-16, '1100001101': 1.4239551166495439e-11, '1100001110': 9.170455911702294e-19, '1100001111': 8.47210628899549e-14, '1100010000': 3.4928604839709983e-13, '1100010001': 1.165046045306865e-08, '1100010010': 2.440221582563231e-17, '1100010011': 5.459549862068954e-12, '1100010100': 1.897629967686568e-10, '1100010101': 2.0347799497444617e-05, '1100010110': 2.7622538086080975e-15, '1100010111': 8.035129742137347e-11, '1100011000': 9.056866933922606e-17, '1100011001': 2.025321737227559e-11, '1100011010': 3.182675454211156e-20, '1100011011': 6.718216480414159e-15, '1100011100': 2.0492224265640148e-13, '1100011101': 1.3991128874238063e-08, '1100011110': 6.2691822208066726e-18, '1100011111': 6.71312568507376e-13, '1100100000': 3.53133398050697e-17, '1100100001': 2.5250859414457595e-12, '1100100010': 2.702686129901801e-19, '1100100011': 1.1937486186686764e-14, '1100100100': 3.638056058660306e-12, '1100100101': 3.765561347201166e-07, '1100100110': 7.412186022481357e-15, '1100100111': 7.409633704022598e-10, '1100101000': 1.217232208411824e-18, '1100101001': 5.1722046324616544e-14, '1100101010': 2.722255502175352e-22, '1100101011': 3.986377660089181e-17, '1100101100': 3.619465848340405e-14, '1100101101': 6.986861659558045e-09, '1100101110': 1.505715388244539e-17, '1100101111': 2.5371625016316557e-12, '1100110000': 2.172809974292555e-11, '1100110001': 1.0462998638073144e-06, '1100110010': 1.2008218282540202e-15, '1100110011': 7.606979980067014e-10, '1100110100': 1.0641453817569694e-14, '1100110101': 4.894336639994172e-09, '1100110110': 1.9200873734818483e-15, '1100110111': 1.709613386821167e-10, '1100111000': 1.7938779398427547e-14, '1100111001': 7.620761011688048e-09, '1100111010': 2.987345329700563e-17, '1100111011': 5.6457903853615036e-12, '1100111100': 1.1219930814946618e-10, '1100111101': 1.2701374527248562e-05, '1100111110': 2.7750194895243303e-14, '1100111111': 3.791105254046712e-09, '1101000000': 8.49819001327734e-14, '1101000001': 4.945758670210201e-09, '1101000010': 6.242823602954884e-19, '1101000011': 1.1705778290414094e-13, '1101000100': 7.220593330526257e-14, '1101000101': 2.787036557794989e-11, '1101000110': 6.302040344017673e-15, '1101000111': 5.663222822127567e-10, '1101001000': 2.506368493784887e-19, '1101001001': 5.86621123511569e-14, '1101001010': 6.980550544085351e-23, '1101001011': 4.3076781583104425e-19, '1101001100': 8.1748465444853e-17, '1101001101': 1.0098437258843567e-10, '1101001110': 2.0643423180851303e-18, '1101001111': 3.3603559924189264e-13, '1101010000': 1.7983047603963034e-13, '1101010001': 1.963024543897657e-08, '1101010010': 1.2907976707141737e-17, '1101010011': 2.018250285340726e-12, '1101010100': 3.1007930842677834e-14, '1101010101': 9.574328211547003e-10, '1101010110': 1.8550439921134734e-21, '1101010111': 4.52745954242275e-14, '1101011000': 5.0721339908500344e-18, '1101011001': 5.713225972612699e-13, '1101011010': 2.515562295742015e-22, '1101011011': 1.6990659682934635e-17, '1101011100': 2.3961607906423313e-14, '1101011101': 5.256002942346691e-11, '1101011110': 5.090069691430396e-18, '1101011111': 1.2569888199562509e-12, '1101100000': 7.840097333854194e-14, '1101100001': 8.781701776276658e-09, '1101100010': 6.0921925086587064e-18, '1101100011': 9.80254978084472e-13, '1101100100': 4.3522788411988e-16, '1101100101': 1.158838446846353e-09, '1101100110': 8.32995096776165e-18, '1101100111': 1.758698991400001e-12, '1101101000': 1.4252220533563044e-17, '1101101001': 1.742779703673955e-12, '1101101010': 2.167578464192764e-21, '1101101011': 3.4755494466231734e-16, '1101101100': 7.837798569312334e-14, '1101101101': 1.1947084793874182e-08, '1101101110': 1.664923907295623e-17, '1101101111': 2.857477042127857e-12, '1101110000': 5.986350620658284e-17, '1101110001': 2.2092416375579356e-10, '1101110010': 3.8139027503384814e-18, '1101110011': 6.76417568753697e-13, '1101110100': 6.885612569763475e-11, '1101110101': 7.395498125258155e-06, '1101110110': 1.4228821295484337e-14, '1101110111': 1.775562431333786e-09, '1101111000': 4.288880479998846e-15, '1101111001': 3.5560786271004595e-11, '1101111010': 7.006707281305758e-18, '1101111011': 9.43350915285107e-13, '1101111100': 1.7730126491157486e-13, '1101111101': 9.20620221101863e-12, '1101111110': 7.118746392456952e-15, '1101111111': 6.467719537618335e-10, '1110000000': 1.1740682654082365e-13, '1110000001': 1.260131183360946e-08, '1110000010': 4.075572725991896e-18, '1110000011': 7.971946727363953e-13, '1110000100': 8.691715585946709e-13, '1110000101': 8.430730901743739e-08, '1110000110': 2.243790890164566e-15, '1110000111': 1.118583512594981e-10, '1110001000': 1.2821307216791184e-20, '1110001001': 5.204098746969166e-14, '1110001010': 2.079646699629003e-21, '1110001011': 2.7813010933913353e-16, '1110001100': 1.0189010603785442e-15, '1110001101': 6.937876214468008e-13, '1110001110': 2.1110883724554517e-18, '1110001111': 3.103443209749222e-13, '1110010000': 5.933634591350113e-14, '1110010001': 3.040390814028726e-08, '1110010010': 9.60774673335435e-17, '1110010011': 2.043512222426174e-11, '1110010100': 3.5013342011492077e-10, '1110010101': 1.4239195048961673e-05, '1110010110': 2.047485507077785e-14, '1110010111': 1.2702951893191347e-09, '1110011000': 1.4129855687733926e-17, '1110011001': 2.7791194539444857e-13, '1110011010': 1.2668336773319403e-20, '1110011011': 2.632793731979267e-15, '1110011100': 1.706933465824802e-14, '1110011101': 3.370509960751577e-09, '1110011110': 1.502337779355967e-17, '1110011111': 2.1903125620894975e-12, '1110100000': 3.82800962772261e-14, '1110100001': 3.0428468123211517e-09, '1110100010': 7.966834012575463e-20, '1110100011': 5.375395270314504e-17, '1110100100': 8.925691618294306e-10, '1110100101': 9.583032330715008e-05, '1110100110': 3.981743650691367e-14, '1110100111': 6.891333405047641e-09, '1110101000': 4.055217963086089e-18, '1110101001': 4.4426091814624786e-13, '1110101010': 1.776816279747024e-23, '1110101011': 9.895172750863772e-18, '1110101100': 4.321864707505835e-16, '1110101101': 3.4249349593841307e-10, '1110101110': 3.257716066063182e-18, '1110101111': 5.253045514936833e-13, '1110110000': 1.3183478968208457e-10, '1110110001': 6.812682136841372e-11, '1110110010': 1.466332406363193e-13, '1110110011': 2.4108651028085547e-08, '1110110100': 3.497317319732198e-09, '1110110101': 6.8828116681407655e-09, '1110110110': 1.3510834997505025e-10, '1110110111': 1.2262182190538207e-05, '1110111000': 3.0784038424844036e-15, '1110111001': 1.5714540297267321e-09, '1110111010': 5.733888365029578e-18, '1110111011': 1.3673011348526374e-12, '1110111100': 3.355204652687247e-11, '1110111101': 3.6504507828187162e-06, '1110111110': 2.7013296558859122e-15, '1110111111': 4.0946575644852766e-10, '1111000000': 5.839066010845596e-16, '1111000001': 3.6224593849357215e-11, '1111000010': 2.7233953246690028e-18, '1111000011': 1.9495785584890337e-13, '1111000100': 1.6390784707115623e-11, '1111000101': 5.946078333025841e-09, '1111000110': 1.2747025006852043e-14, '1111000111': 2.3268233206634563e-09, '1111001000': 1.0371906118293287e-17, '1111001001': 6.951348222889523e-13, '1111001010': 1.3503694843501353e-23, '1111001011': 2.7669636904091348e-18, '1111001100': 6.000176252561396e-15, '1111001101': 5.991436046078796e-10, '1111001110': 1.8916411940120535e-18, '1111001111': 1.987441817554624e-13, '1111010000': 6.658976615366653e-15, '1111010001': 1.2727865606367706e-10, '1111010010': 1.2190265676944782e-17, '1111010011': 1.399963698714009e-12, '1111010100': 6.872643162495247e-11, '1111010101': 3.358647544590098e-11, '1111010110': 5.5069614966159135e-14, '1111010111': 9.862951035455371e-09, '1111011000': 1.2671210906544717e-16, '1111011001': 1.4329602253166054e-11, '1111011010': 7.915541097340563e-21, '1111011011': 1.3361252019382748e-15, '1111011100': 4.187422617593052e-14, '1111011101': 3.0449387727886853e-09, '1111011110': 3.0860573101853966e-19, '1111011111': 4.877985200603705e-14, '1111100000': 1.8510964538789118e-15, '1111100001': 7.569392550986584e-12, '1111100010': 7.968493664153369e-18, '1111100011': 9.946618560010097e-13, '1111100100': 2.9536092449620686e-11, '1111100101': 1.719262131252503e-08, '1111100110': 2.6465019044487764e-14, '1111100111': 4.6140215033228336e-09, '1111101000': 6.886749789801027e-18, '1111101001': 1.1193952016879254e-12, '1111101010': 2.006962997264748e-21, '1111101011': 3.3167690876656136e-16, '1111101100': 3.7122186683924363e-14, '1111101101': 3.752778410704713e-09, '1111101110': 2.9300235546970143e-18, '1111101111': 3.949761498048082e-13, '1111110000': 1.0981098755816775e-15, '1111110001': 2.5923100523280174e-11, '1111110010': 1.5574888524752976e-20, '1111110011': 2.085522870121841e-14, '1111110100': 3.62345899419215e-12, '1111110101': 4.0864031971107593e-07, '1111110110': 1.0281927921808205e-15, '1111110111': 1.3209408954514155e-10, '1111111000': 2.52288152529519e-15, '1111111001': 6.360000313006719e-11, '1111111010': 4.63870297112283e-18, '1111111011': 5.634293682116717e-13, '1111111100': 2.2825306043171047e-13, '1111111101': 1.8426479045356362e-09, '1111111110': 4.8707920773064305e-15, '1111111111': 4.403241649359319e-10}
+Analog measurement results:
+{'0110110101': 10, '1010010101': 1, '1010110101': 1013}
+Full_results:
+{'0000000000': 0, '0000000001': 0, '0000000010': 0, '0000000011': 0, '0000000100': 0, '0000000101': 0, '0000000110': 0, '0000000111': 0, '0000001000': 0, '0000001001': 0, '0000001010': 0, '0000001011': 0, '0000001100': 0, '0000001101': 0, '0000001110': 0, '0000001111': 0, '0000010000': 0, '0000010001': 0, '0000010010': 0, '0000010011': 0, '0000010100': 0, '0000010101': 0, '0000010110': 0, '0000010111': 0, '0000011000': 0, '0000011001': 0, '0000011010': 0, '0000011011': 0, '0000011100': 0, '0000011101': 0, '0000011110': 0, '0000011111': 0, '0000100000': 0, '0000100001': 0, '0000100010': 0, '0000100011': 0, '0000100100': 0, '0000100101': 0, '0000100110': 0, '0000100111': 0, '0000101000': 0, '0000101001': 0, '0000101010': 0, '0000101011': 0, '0000101100': 0, '0000101101': 0, '0000101110': 0, '0000101111': 0, '0000110000': 0, '0000110001': 0, '0000110010': 0, '0000110011': 0, '0000110100': 0, '0000110101': 0, '0000110110': 0, '0000110111': 0, '0000111000': 0, '0000111001': 0, '0000111010': 0, '0000111011': 0, '0000111100': 0, '0000111101': 0, '0000111110': 0, '0000111111': 0, '0001000000': 0, '0001000001': 0, '0001000010': 0, '0001000011': 0, '0001000100': 0, '0001000101': 0, '0001000110': 0, '0001000111': 0, '0001001000': 0, '0001001001': 0, '0001001010': 0, '0001001011': 0, '0001001100': 0, '0001001101': 0, '0001001110': 0, '0001001111': 0, '0001010000': 0, '0001010001': 0, '0001010010': 0, '0001010011': 0, '0001010100': 0, '0001010101': 0, '0001010110': 0, '0001010111': 0, '0001011000': 0, '0001011001': 0, '0001011010': 0, '0001011011': 0, '0001011100': 0, '0001011101': 0, '0001011110': 0, '0001011111': 0, '0001100000': 0, '0001100001': 0, '0001100010': 0, '0001100011': 0, '0001100100': 0, '0001100101': 0, '0001100110': 0, '0001100111': 0, '0001101000': 0, '0001101001': 0, '0001101010': 0, '0001101011': 0, '0001101100': 0, '0001101101': 0, '0001101110': 0, '0001101111': 0, '0001110000': 0, '0001110001': 0, '0001110010': 0, '0001110011': 0, '0001110100': 0, '0001110101': 0, '0001110110': 0, '0001110111': 0, '0001111000': 0, '0001111001': 0, '0001111010': 0, '0001111011': 0, '0001111100': 0, '0001111101': 0, '0001111110': 0, '0001111111': 0, '0010000000': 0, '0010000001': 0, '0010000010': 0, '0010000011': 0, '0010000100': 0, '0010000101': 0, '0010000110': 0, '0010000111': 0, '0010001000': 0, '0010001001': 0, '0010001010': 0, '0010001011': 0, '0010001100': 0, '0010001101': 0, '0010001110': 0, '0010001111': 0, '0010010000': 0, '0010010001': 0, '0010010010': 0, '0010010011': 0, '0010010100': 0, '0010010101': 0, '0010010110': 0, '0010010111': 0, '0010011000': 0, '0010011001': 0, '0010011010': 0, '0010011011': 0, '0010011100': 0, '0010011101': 0, '0010011110': 0, '0010011111': 0, '0010100000': 0, '0010100001': 0, '0010100010': 0, '0010100011': 0, '0010100100': 0, '0010100101': 0, '0010100110': 0, '0010100111': 0, '0010101000': 0, '0010101001': 0, '0010101010': 0, '0010101011': 0, '0010101100': 0, '0010101101': 0, '0010101110': 0, '0010101111': 0, '0010110000': 0, '0010110001': 0, '0010110010': 0, '0010110011': 0, '0010110100': 0, '0010110101': 0, '0010110110': 0, '0010110111': 0, '0010111000': 0, '0010111001': 0, '0010111010': 0, '0010111011': 0, '0010111100': 0, '0010111101': 0, '0010111110': 0, '0010111111': 0, '0011000000': 0, '0011000001': 0, '0011000010': 0, '0011000011': 0, '0011000100': 0, '0011000101': 0, '0011000110': 0, '0011000111': 0, '0011001000': 0, '0011001001': 0, '0011001010': 0, '0011001011': 0, '0011001100': 0, '0011001101': 0, '0011001110': 0, '0011001111': 0, '0011010000': 0, '0011010001': 0, '0011010010': 0, '0011010011': 0, '0011010100': 0, '0011010101': 0, '0011010110': 0, '0011010111': 0, '0011011000': 0, '0011011001': 0, '0011011010': 0, '0011011011': 0, '0011011100': 0, '0011011101': 0, '0011011110': 0, '0011011111': 0, '0011100000': 0, '0011100001': 0, '0011100010': 0, '0011100011': 0, '0011100100': 0, '0011100101': 0, '0011100110': 0, '0011100111': 0, '0011101000': 0, '0011101001': 0, '0011101010': 0, '0011101011': 0, '0011101100': 0, '0011101101': 0, '0011101110': 0, '0011101111': 0, '0011110000': 0, '0011110001': 0, '0011110010': 0, '0011110011': 0, '0011110100': 0, '0011110101': 0, '0011110110': 0, '0011110111': 0, '0011111000': 0, '0011111001': 0, '0011111010': 0, '0011111011': 0, '0011111100': 0, '0011111101': 0, '0011111110': 0, '0011111111': 0, '0100000000': 0, '0100000001': 0, '0100000010': 0, '0100000011': 0, '0100000100': 0, '0100000101': 0, '0100000110': 0, '0100000111': 0, '0100001000': 0, '0100001001': 0, '0100001010': 0, '0100001011': 0, '0100001100': 0, '0100001101': 0, '0100001110': 0, '0100001111': 0, '0100010000': 0, '0100010001': 0, '0100010010': 0, '0100010011': 0, '0100010100': 0, '0100010101': 0, '0100010110': 0, '0100010111': 0, '0100011000': 0, '0100011001': 0, '0100011010': 0, '0100011011': 0, '0100011100': 0, '0100011101': 0, '0100011110': 0, '0100011111': 0, '0100100000': 0, '0100100001': 0, '0100100010': 0, '0100100011': 0, '0100100100': 0, '0100100101': 0, '0100100110': 0, '0100100111': 0, '0100101000': 0, '0100101001': 0, '0100101010': 0, '0100101011': 0, '0100101100': 0, '0100101101': 0, '0100101110': 0, '0100101111': 0, '0100110000': 0, '0100110001': 0, '0100110010': 0, '0100110011': 0, '0100110100': 0, '0100110101': 0, '0100110110': 0, '0100110111': 0, '0100111000': 0, '0100111001': 0, '0100111010': 0, '0100111011': 0, '0100111100': 0, '0100111101': 0, '0100111110': 0, '0100111111': 0, '0101000000': 0, '0101000001': 0, '0101000010': 0, '0101000011': 0, '0101000100': 0, '0101000101': 0, '0101000110': 0, '0101000111': 0, '0101001000': 0, '0101001001': 0, '0101001010': 0, '0101001011': 0, '0101001100': 0, '0101001101': 0, '0101001110': 0, '0101001111': 0, '0101010000': 0, '0101010001': 0, '0101010010': 0, '0101010011': 0, '0101010100': 0, '0101010101': 0, '0101010110': 0, '0101010111': 0, '0101011000': 0, '0101011001': 0, '0101011010': 0, '0101011011': 0, '0101011100': 0, '0101011101': 0, '0101011110': 0, '0101011111': 0, '0101100000': 0, '0101100001': 0, '0101100010': 0, '0101100011': 0, '0101100100': 0, '0101100101': 0, '0101100110': 0, '0101100111': 0, '0101101000': 0, '0101101001': 0, '0101101010': 0, '0101101011': 0, '0101101100': 0, '0101101101': 0, '0101101110': 0, '0101101111': 0, '0101110000': 0, '0101110001': 0, '0101110010': 0, '0101110011': 0, '0101110100': 0, '0101110101': 0, '0101110110': 0, '0101110111': 0, '0101111000': 0, '0101111001': 0, '0101111010': 0, '0101111011': 0, '0101111100': 0, '0101111101': 0, '0101111110': 0, '0101111111': 0, '0110000000': 0, '0110000001': 0, '0110000010': 0, '0110000011': 0, '0110000100': 0, '0110000101': 0, '0110000110': 0, '0110000111': 0, '0110001000': 0, '0110001001': 0, '0110001010': 0, '0110001011': 0, '0110001100': 0, '0110001101': 0, '0110001110': 0, '0110001111': 0, '0110010000': 0, '0110010001': 0, '0110010010': 0, '0110010011': 0, '0110010100': 0, '0110010101': 0, '0110010110': 0, '0110010111': 0, '0110011000': 0, '0110011001': 0, '0110011010': 0, '0110011011': 0, '0110011100': 0, '0110011101': 0, '0110011110': 0, '0110011111': 0, '0110100000': 0, '0110100001': 0, '0110100010': 0, '0110100011': 0, '0110100100': 0, '0110100101': 0, '0110100110': 0, '0110100111': 0, '0110101000': 0, '0110101001': 0, '0110101010': 0, '0110101011': 0, '0110101100': 0, '0110101101': 0, '0110101110': 0, '0110101111': 0, '0110110000': 0, '0110110001': 0, '0110110010': 0, '0110110011': 0, '0110110100': 0, '0110110101': 10, '0110110110': 0, '0110110111': 0, '0110111000': 0, '0110111001': 0, '0110111010': 0, '0110111011': 0, '0110111100': 0, '0110111101': 0, '0110111110': 0, '0110111111': 0, '0111000000': 0, '0111000001': 0, '0111000010': 0, '0111000011': 0, '0111000100': 0, '0111000101': 0, '0111000110': 0, '0111000111': 0, '0111001000': 0, '0111001001': 0, '0111001010': 0, '0111001011': 0, '0111001100': 0, '0111001101': 0, '0111001110': 0, '0111001111': 0, '0111010000': 0, '0111010001': 0, '0111010010': 0, '0111010011': 0, '0111010100': 0, '0111010101': 0, '0111010110': 0, '0111010111': 0, '0111011000': 0, '0111011001': 0, '0111011010': 0, '0111011011': 0, '0111011100': 0, '0111011101': 0, '0111011110': 0, '0111011111': 0, '0111100000': 0, '0111100001': 0, '0111100010': 0, '0111100011': 0, '0111100100': 0, '0111100101': 0, '0111100110': 0, '0111100111': 0, '0111101000': 0, '0111101001': 0, '0111101010': 0, '0111101011': 0, '0111101100': 0, '0111101101': 0, '0111101110': 0, '0111101111': 0, '0111110000': 0, '0111110001': 0, '0111110010': 0, '0111110011': 0, '0111110100': 0, '0111110101': 0, '0111110110': 0, '0111110111': 0, '0111111000': 0, '0111111001': 0, '0111111010': 0, '0111111011': 0, '0111111100': 0, '0111111101': 0, '0111111110': 0, '0111111111': 0, '1000000000': 0, '1000000001': 0, '1000000010': 0, '1000000011': 0, '1000000100': 0, '1000000101': 0, '1000000110': 0, '1000000111': 0, '1000001000': 0, '1000001001': 0, '1000001010': 0, '1000001011': 0, '1000001100': 0, '1000001101': 0, '1000001110': 0, '1000001111': 0, '1000010000': 0, '1000010001': 0, '1000010010': 0, '1000010011': 0, '1000010100': 0, '1000010101': 0, '1000010110': 0, '1000010111': 0, '1000011000': 0, '1000011001': 0, '1000011010': 0, '1000011011': 0, '1000011100': 0, '1000011101': 0, '1000011110': 0, '1000011111': 0, '1000100000': 0, '1000100001': 0, '1000100010': 0, '1000100011': 0, '1000100100': 0, '1000100101': 0, '1000100110': 0, '1000100111': 0, '1000101000': 0, '1000101001': 0, '1000101010': 0, '1000101011': 0, '1000101100': 0, '1000101101': 0, '1000101110': 0, '1000101111': 0, '1000110000': 0, '1000110001': 0, '1000110010': 0, '1000110011': 0, '1000110100': 0, '1000110101': 0, '1000110110': 0, '1000110111': 0, '1000111000': 0, '1000111001': 0, '1000111010': 0, '1000111011': 0, '1000111100': 0, '1000111101': 0, '1000111110': 0, '1000111111': 0, '1001000000': 0, '1001000001': 0, '1001000010': 0, '1001000011': 0, '1001000100': 0, '1001000101': 0, '1001000110': 0, '1001000111': 0, '1001001000': 0, '1001001001': 0, '1001001010': 0, '1001001011': 0, '1001001100': 0, '1001001101': 0, '1001001110': 0, '1001001111': 0, '1001010000': 0, '1001010001': 0, '1001010010': 0, '1001010011': 0, '1001010100': 0, '1001010101': 0, '1001010110': 0, '1001010111': 0, '1001011000': 0, '1001011001': 0, '1001011010': 0, '1001011011': 0, '1001011100': 0, '1001011101': 0, '1001011110': 0, '1001011111': 0, '1001100000': 0, '1001100001': 0, '1001100010': 0, '1001100011': 0, '1001100100': 0, '1001100101': 0, '1001100110': 0, '1001100111': 0, '1001101000': 0, '1001101001': 0, '1001101010': 0, '1001101011': 0, '1001101100': 0, '1001101101': 0, '1001101110': 0, '1001101111': 0, '1001110000': 0, '1001110001': 0, '1001110010': 0, '1001110011': 0, '1001110100': 0, '1001110101': 0, '1001110110': 0, '1001110111': 0, '1001111000': 0, '1001111001': 0, '1001111010': 0, '1001111011': 0, '1001111100': 0, '1001111101': 0, '1001111110': 0, '1001111111': 0, '1010000000': 0, '1010000001': 0, '1010000010': 0, '1010000011': 0, '1010000100': 0, '1010000101': 0, '1010000110': 0, '1010000111': 0, '1010001000': 0, '1010001001': 0, '1010001010': 0, '1010001011': 0, '1010001100': 0, '1010001101': 0, '1010001110': 0, '1010001111': 0, '1010010000': 0, '1010010001': 0, '1010010010': 0, '1010010011': 0, '1010010100': 0, '1010010101': 1, '1010010110': 0, '1010010111': 0, '1010011000': 0, '1010011001': 0, '1010011010': 0, '1010011011': 0, '1010011100': 0, '1010011101': 0, '1010011110': 0, '1010011111': 0, '1010100000': 0, '1010100001': 0, '1010100010': 0, '1010100011': 0, '1010100100': 0, '1010100101': 0, '1010100110': 0, '1010100111': 0, '1010101000': 0, '1010101001': 0, '1010101010': 0, '1010101011': 0, '1010101100': 0, '1010101101': 0, '1010101110': 0, '1010101111': 0, '1010110000': 0, '1010110001': 0, '1010110010': 0, '1010110011': 0, '1010110100': 0, '1010110101': 1013, '1010110110': 0, '1010110111': 0, '1010111000': 0, '1010111001': 0, '1010111010': 0, '1010111011': 0, '1010111100': 0, '1010111101': 0, '1010111110': 0, '1010111111': 0, '1011000000': 0, '1011000001': 0, '1011000010': 0, '1011000011': 0, '1011000100': 0, '1011000101': 0, '1011000110': 0, '1011000111': 0, '1011001000': 0, '1011001001': 0, '1011001010': 0, '1011001011': 0, '1011001100': 0, '1011001101': 0, '1011001110': 0, '1011001111': 0, '1011010000': 0, '1011010001': 0, '1011010010': 0, '1011010011': 0, '1011010100': 0, '1011010101': 0, '1011010110': 0, '1011010111': 0, '1011011000': 0, '1011011001': 0, '1011011010': 0, '1011011011': 0, '1011011100': 0, '1011011101': 0, '1011011110': 0, '1011011111': 0, '1011100000': 0, '1011100001': 0, '1011100010': 0, '1011100011': 0, '1011100100': 0, '1011100101': 0, '1011100110': 0, '1011100111': 0, '1011101000': 0, '1011101001': 0, '1011101010': 0, '1011101011': 0, '1011101100': 0, '1011101101': 0, '1011101110': 0, '1011101111': 0, '1011110000': 0, '1011110001': 0, '1011110010': 0, '1011110011': 0, '1011110100': 0, '1011110101': 0, '1011110110': 0, '1011110111': 0, '1011111000': 0, '1011111001': 0, '1011111010': 0, '1011111011': 0, '1011111100': 0, '1011111101': 0, '1011111110': 0, '1011111111': 0, '1100000000': 0, '1100000001': 0, '1100000010': 0, '1100000011': 0, '1100000100': 0, '1100000101': 0, '1100000110': 0, '1100000111': 0, '1100001000': 0, '1100001001': 0, '1100001010': 0, '1100001011': 0, '1100001100': 0, '1100001101': 0, '1100001110': 0, '1100001111': 0, '1100010000': 0, '1100010001': 0, '1100010010': 0, '1100010011': 0, '1100010100': 0, '1100010101': 0, '1100010110': 0, '1100010111': 0, '1100011000': 0, '1100011001': 0, '1100011010': 0, '1100011011': 0, '1100011100': 0, '1100011101': 0, '1100011110': 0, '1100011111': 0, '1100100000': 0, '1100100001': 0, '1100100010': 0, '1100100011': 0, '1100100100': 0, '1100100101': 0, '1100100110': 0, '1100100111': 0, '1100101000': 0, '1100101001': 0, '1100101010': 0, '1100101011': 0, '1100101100': 0, '1100101101': 0, '1100101110': 0, '1100101111': 0, '1100110000': 0, '1100110001': 0, '1100110010': 0, '1100110011': 0, '1100110100': 0, '1100110101': 0, '1100110110': 0, '1100110111': 0, '1100111000': 0, '1100111001': 0, '1100111010': 0, '1100111011': 0, '1100111100': 0, '1100111101': 0, '1100111110': 0, '1100111111': 0, '1101000000': 0, '1101000001': 0, '1101000010': 0, '1101000011': 0, '1101000100': 0, '1101000101': 0, '1101000110': 0, '1101000111': 0, '1101001000': 0, '1101001001': 0, '1101001010': 0, '1101001011': 0, '1101001100': 0, '1101001101': 0, '1101001110': 0, '1101001111': 0, '1101010000': 0, '1101010001': 0, '1101010010': 0, '1101010011': 0, '1101010100': 0, '1101010101': 0, '1101010110': 0, '1101010111': 0, '1101011000': 0, '1101011001': 0, '1101011010': 0, '1101011011': 0, '1101011100': 0, '1101011101': 0, '1101011110': 0, '1101011111': 0, '1101100000': 0, '1101100001': 0, '1101100010': 0, '1101100011': 0, '1101100100': 0, '1101100101': 0, '1101100110': 0, '1101100111': 0, '1101101000': 0, '1101101001': 0, '1101101010': 0, '1101101011': 0, '1101101100': 0, '1101101101': 0, '1101101110': 0, '1101101111': 0, '1101110000': 0, '1101110001': 0, '1101110010': 0, '1101110011': 0, '1101110100': 0, '1101110101': 0, '1101110110': 0, '1101110111': 0, '1101111000': 0, '1101111001': 0, '1101111010': 0, '1101111011': 0, '1101111100': 0, '1101111101': 0, '1101111110': 0, '1101111111': 0, '1110000000': 0, '1110000001': 0, '1110000010': 0, '1110000011': 0, '1110000100': 0, '1110000101': 0, '1110000110': 0, '1110000111': 0, '1110001000': 0, '1110001001': 0, '1110001010': 0, '1110001011': 0, '1110001100': 0, '1110001101': 0, '1110001110': 0, '1110001111': 0, '1110010000': 0, '1110010001': 0, '1110010010': 0, '1110010011': 0, '1110010100': 0, '1110010101': 0, '1110010110': 0, '1110010111': 0, '1110011000': 0, '1110011001': 0, '1110011010': 0, '1110011011': 0, '1110011100': 0, '1110011101': 0, '1110011110': 0, '1110011111': 0, '1110100000': 0, '1110100001': 0, '1110100010': 0, '1110100011': 0, '1110100100': 0, '1110100101': 0, '1110100110': 0, '1110100111': 0, '1110101000': 0, '1110101001': 0, '1110101010': 0, '1110101011': 0, '1110101100': 0, '1110101101': 0, '1110101110': 0, '1110101111': 0, '1110110000': 0, '1110110001': 0, '1110110010': 0, '1110110011': 0, '1110110100': 0, '1110110101': 0, '1110110110': 0, '1110110111': 0, '1110111000': 0, '1110111001': 0, '1110111010': 0, '1110111011': 0, '1110111100': 0, '1110111101': 0, '1110111110': 0, '1110111111': 0, '1111000000': 0, '1111000001': 0, '1111000010': 0, '1111000011': 0, '1111000100': 0, '1111000101': 0, '1111000110': 0, '1111000111': 0, '1111001000': 0, '1111001001': 0, '1111001010': 0, '1111001011': 0, '1111001100': 0, '1111001101': 0, '1111001110': 0, '1111001111': 0, '1111010000': 0, '1111010001': 0, '1111010010': 0, '1111010011': 0, '1111010100': 0, '1111010101': 0, '1111010110': 0, '1111010111': 0, '1111011000': 0, '1111011001': 0, '1111011010': 0, '1111011011': 0, '1111011100': 0, '1111011101': 0, '1111011110': 0, '1111011111': 0, '1111100000': 0, '1111100001': 0, '1111100010': 0, '1111100011': 0, '1111100100': 0, '1111100101': 0, '1111100110': 0, '1111100111': 0, '1111101000': 0, '1111101001': 0, '1111101010': 0, '1111101011': 0, '1111101100': 0, '1111101101': 0, '1111101110': 0, '1111101111': 0, '1111110000': 0, '1111110001': 0, '1111110010': 0, '1111110011': 0, '1111110100': 0, '1111110101': 0, '1111110110': 0, '1111110111': 0, '1111111000': 0, '1111111001': 0, '1111111010': 0, '1111111011': 0, '1111111100': 0, '1111111101': 0, '1111111110': 0, '1111111111': 0}

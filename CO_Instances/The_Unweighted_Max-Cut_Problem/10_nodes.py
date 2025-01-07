@@ -1,0 +1,28 @@
+import json
+import os
+
+graph_dict={
+    0: {1: {"weight": 1.0}, 4: {"weight": 1.0}, 5: {"weight": 1.0}, 8: {"weight": 1.0}},
+    1: {0: {"weight": 1.0}, 2: {"weight": 1.0}, 4: {"weight": 1.0}, 6: {"weight": 1.0}, 9: {"weight": 1.0}},
+    2: {1: {"weight": 1.0}, 3: {"weight": 1.0}, 5: {"weight": 1.0}, 6: {"weight": 1.0}, 8: {"weight": 1.0}},
+    3: {2: {"weight": 1.0}, 4: {"weight": 1.0}, 5: {"weight": 1.0}, 7: {"weight": 1.0}, 9: {"weight": 1.0}},
+    4: {0: {"weight": 1.0}, 1: {"weight": 1.0}, 3: {"weight": 1.0}, 6: {"weight": 1.0}, 7: {"weight": 1.0}},
+    5: {0: {"weight": 1.0}, 2: {"weight": 1.0}, 3: {"weight": 1.0}, 6: {"weight": 1.0}, 8: {"weight": 1.0}},
+    6: {1: {"weight": 1.0}, 2: {"weight": 1.0}, 4: {"weight": 1.0}, 5: {"weight": 1.0}, 7: {"weight": 1.0}, 9: {"weight": 1.0}},
+    7: {3: {"weight": 1.0}, 4: {"weight": 1.0}, 6: {"weight": 1.0}, 8: {"weight": 1.0}, 9: {"weight": 1.0}},
+    8: {0: {"weight": 1.0}, 2: {"weight": 1.0}, 5: {"weight": 1.0}, 7: {"weight": 1.0}, 9: {"weight": 1.0}},
+    9: {1: {"weight": 1.0}, 3: {"weight": 1.0}, 6: {"weight": 1.0}, 7: {"weight": 1.0}, 8: {"weight": 1.0}}
+    }
+
+# Get the current working directory
+directory = os.getcwd()
+
+# Create folder path
+filename = '10_nodes.json'
+file_path = os.path.join(directory, filename)
+
+# Convert dictionary to JSON string and save to file.
+with open(file_path, 'w') as json_file:
+    json.dump(graph_dict, json_file, indent=4)
+
+print(f"JSON file '{filename}' has been created and saved in '{directory}' directory.")

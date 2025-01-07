@@ -1,0 +1,96 @@
+Running configuration:
+Namespace(atoms=None, charge=None, clause='[[1, 2, 3],[-1, -2, 3],[1, -3, 4],[-1, -3, -4],[2, 3, -4],[-2, -3, -4]]', coords=None, depths=10, external_cycles=20, freeze_core=None, graph_dict=None, internal_cycles=2000, mapper=None, multiplicity=None, problem='Not-All-Equal 3-Satisfiability', qubits=4, remove_orbitals=None)
+No graph weights provided, using default values or skipping.
+
+Logic expression:
+(x1 OR x2 OR x3) AND (NOT x1 OR NOT x2 OR x3) AND (x1 OR NOT x3 OR x4) AND (NOT x1 OR NOT x3 OR NOT x4) AND (x2 OR x3 OR NOT x4) AND (NOT x2 OR NOT x3 OR NOT x4)
+
+------------The 1 th architecture optimization------------
+Current optimal ground state energy -4.414213559563128
+------------The 2 th architecture optimization------------
+Current optimal ground state energy -4.999999645379278
+------------The 3 th architecture optimization------------
+Current optimal ground state energy -4.999999999581962
+------------The 4 th architecture optimization------------
+Current optimal ground state energy -5.999999995401119
+------------The 5 th architecture optimization------------
+Current optimal ground state energy -5.999999995401119
+------------The 6 th architecture optimization------------
+Current optimal ground state energy -5.999999997981852
+------------The 7 th architecture optimization------------
+Current optimal ground state energy -5.999999997981852
+------------The 8 th architecture optimization------------
+Current optimal ground state energy -5.999999997981852
+------------The 9 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+------------The 10 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+------------The 11 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+------------The 12 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+------------The 13 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+------------The 14 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+------------The 15 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+------------The 16 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+------------The 17 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+------------The 18 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+------------The 19 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+------------The 20 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+------------The 21 th architecture optimization------------
+Current optimal ground state energy -5.999999999083214
+
+Updated p1 : [4.539164041160319, -1.4998913047871811, 3.563760831299886, -3.559022515275574, -0.6271263408397783, -2.4419024771505677, -2.322285580651611, 2.0952694049623073, -1.0371457445304664, 4.398648950283269, -0.9252939180746704, -6.932766010424677, -3.237548778224734, 3.061056552058524, -2.718424440376638, -7.646369243366955, -4.7866958930344055, -7.127123180419589, 4.92007614847655, 4.617544073903259, 2.403358564723632, -0.17637742172892246, 1.944478185871862, -5.800069194405687, -4.190697986347282, -1.187130621095264, -3.3638843454041334, -7.406173451809799, 4.780994789643769, -2.2623860483869915, -1.4479942880710146, -3.7939628720489145, -4.623318214287218, -2.9704314908300873, 2.816219695248515, 1.5777117317324691, -3.0702626297587114, -7.830774622970842, 2.36626420742372, -4.497945631248084]
+Optimal molecular ground state energy: -5.999999999083214
+Optimized angle parameters: [8.53300119 5.19894816 7.87095601 5.95393005 3.14159884 4.69140906
+ 4.71239156 3.61845682 3.12400849 3.8447346  3.08255528 4.39334092
+ 0.88485529 2.44498907 7.85398259]
+Depth: 10
+Final Statevector:
+ Statevector([ 2.63516389e-12+8.87182277e-12j,
+              4.51853348e-17+1.78364480e-17j,
+              3.65642400e-07-3.10528474e-07j,
+             -1.99596286e-12-3.25183943e-12j,
+              2.38353829e-17+9.11554575e-17j,
+             -2.27583653e-17-2.89473507e-17j,
+              7.29311109e-13-1.43251980e-12j,
+             -7.73947976e-18-3.07592040e-17j,
+             -5.49315445e-06-1.84941539e-05j,
+             -1.52051954e-10+2.06773765e-11j,
+             -7.62214489e-01+6.47324550e-01j,
+              4.16082205e-06+6.77875194e-06j,
+             -4.08803528e-11-5.00861383e-11j,
+             -4.01087423e-16+3.30484872e-16j,
+             -1.52036990e-06+2.98634541e-06j,
+              2.16238061e-11+1.55837646e-11j],
+            dims=(2, 2, 2, 2))
+Standard: -6.0
+Error: 9.167857584202466e-10
+
+Bit strings: ['0101', '1010']
+Node status for all best solutions (node number: spin value):
+Solution 1:
+Node x1: Spin Value 1(-> 0)
+Node x2: Spin Value -1(-> 1)
+Node x3: Spin Value 1(-> 0)
+Node x4: Spin Value -1(-> 1)
+Solution 2:
+Node x1: Spin Value -1(-> 1)
+Node x2: Spin Value 1(-> 0)
+Node x3: Spin Value -1(-> 1)
+Node x4: Spin Value 1(-> 0)
+
+State dictionary:
+{'0000': 8.565332802494378e-23, '0001': 2.3598533632050086e-33, '0010': 2.3012229831679665e-13, '0011': 1.4558327425134781e-23, '0100': 8.87744290498536e-33, '0101': 1.3558923020778676e-33, '0110': 2.584007665846431e-24, '0111': 1.0060281793989486e-33, '1000': 3.722084732858559e-10, '1001': 2.3547350722941645e-20, '1010': 0.9999999995530673, '1011': 6.326391799694976e-11, '1100': 4.179824500553059e-21, '1101': 2.7009137150289193e-31, '1110': 1.1229783542991755e-11, '1111': 7.104427095585115e-22}
+Analog measurement results:
+{'1010': 1024}
+Full_results:
+{'0000': 0, '0001': 0, '0010': 0, '0011': 0, '0100': 0, '0101': 0, '0110': 0, '0111': 0, '1000': 0, '1001': 0, '1010': 1024, '1011': 0, '1100': 0, '1101': 0, '1110': 0, '1111': 0}

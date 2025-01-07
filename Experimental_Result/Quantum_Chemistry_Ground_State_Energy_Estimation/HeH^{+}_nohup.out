@@ -1,0 +1,219 @@
+Running configuration:
+Namespace(atoms=['He', 'H'], charge=1, coords=[(0.0, 0.0, 0.0), (1.0, 0.0, 0.0)], depths=10, external_cycles=100, freeze_core='No', graph_matrix=None, internal_cycles=500, mapper='Parity', multiplicity=1, problem='VQE for Quantum Chemistry Ground State Energy Estimation', qubits=2, remove_orbitals=None)
+No graph matrix provided, using default values or skipping.
+No valid matrix loaded, proceeding without matrix.
+
+------------The 1 th architecture optimization------------
+Current optimal ground state energy -3.911275497852611
+------------The 2 th architecture optimization------------
+Current optimal ground state energy -3.9112754987506877
+------------The 3 th architecture optimization------------
+Current optimal ground state energy -3.9112754987506877
+------------The 4 th architecture optimization------------
+Current optimal ground state energy -3.9112754987506877
+------------The 5 th architecture optimization------------
+Current optimal ground state energy -3.914893914913184
+------------The 6 th architecture optimization------------
+Current optimal ground state energy -3.914893914913184
+------------The 7 th architecture optimization------------
+Current optimal ground state energy -3.914893914913184
+------------The 8 th architecture optimization------------
+Current optimal ground state energy -3.914893914913184
+------------The 9 th architecture optimization------------
+Current optimal ground state energy -3.914893914913184
+------------The 10 th architecture optimization------------
+Current optimal ground state energy -3.914893914913184
+------------The 11 th architecture optimization------------
+Current optimal ground state energy -3.914893914913184
+------------The 12 th architecture optimization------------
+Current optimal ground state energy -3.914893914913184
+------------The 13 th architecture optimization------------
+Current optimal ground state energy -3.9183208847671716
+------------The 14 th architecture optimization------------
+Current optimal ground state energy -3.9183208847671716
+------------The 15 th architecture optimization------------
+Current optimal ground state energy -3.9183208847671716
+------------The 16 th architecture optimization------------
+Current optimal ground state energy -3.9183208847671716
+------------The 17 th architecture optimization------------
+Current optimal ground state energy -3.9183208847671716
+------------The 18 th architecture optimization------------
+Current optimal ground state energy -3.9183208847671716
+------------The 19 th architecture optimization------------
+Current optimal ground state energy -3.918559429345575
+------------The 20 th architecture optimization------------
+Current optimal ground state energy -3.918559429345575
+------------The 21 th architecture optimization------------
+Current optimal ground state energy -3.918559429345575
+------------The 22 th architecture optimization------------
+Current optimal ground state energy -3.918559429345575
+------------The 23 th architecture optimization------------
+Current optimal ground state energy -3.918559429345575
+------------The 24 th architecture optimization------------
+Current optimal ground state energy -3.918559429345575
+------------The 25 th architecture optimization------------
+Current optimal ground state energy -3.918559429345575
+------------The 26 th architecture optimization------------
+Current optimal ground state energy -3.918559429345575
+------------The 27 th architecture optimization------------
+Current optimal ground state energy -3.918559429345575
+------------The 28 th architecture optimization------------
+Current optimal ground state energy -3.918559429345575
+------------The 29 th architecture optimization------------
+Current optimal ground state energy -3.918559429345575
+------------The 30 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 31 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 32 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 33 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 34 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 35 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 36 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 37 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 38 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 39 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 40 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 41 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 42 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 43 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 44 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 45 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 46 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 47 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 48 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 49 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 50 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 51 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 52 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 53 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 54 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 55 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 56 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 57 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 58 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 59 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 60 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 61 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 62 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 63 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 64 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 65 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 66 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 67 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 68 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 69 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 70 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 71 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 72 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 73 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 74 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 75 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 76 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 77 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 78 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 79 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 80 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 81 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 82 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 83 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 84 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 85 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 86 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 87 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 88 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 89 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 90 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 91 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 92 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 93 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 94 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 95 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 96 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 97 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 98 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 99 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 100 th architecture optimization------------
+Current optimal ground state energy -3.9185595426917934
+------------The 101 th architecture optimization------------
+Current optimal ground state energy -3.9185595439187515
+
+Updated p1 : [-1.5488622048923686, -8.0, 0.9285396127231405, -8.0, 3.0, -7.7748691444576705, -0.9331828197779952, -4.589909148960145, -4.537019118616112, -4.301693716473093, -8.0, -2.0041407715807233, -6.004498388882733, -8.0, -6.045186532195043, -4.517939102646107, 2.484877040193087, 0.23970385917092862, -4.559680004724402, -2.7529113589495724]
+Optimal molecular ground state energy: -3.9185595439187515
+Optimized angle parameters: [1.50017646 1.67369824 6.59657299 2.47297172 5.14042402 2.36551681
+ 3.98377346 5.89861913 1.57078379 1.53802975 3.49682649]
+Depth: 10
+Final Statevector:
+ Statevector([-0.01731551+0.00159417j, -0.99345735+0.09267833j,
+              0.06177334-0.00575896j, -0.01729484+0.00162093j],
+            dims=(2, 2))
+Standard: -3.9185595444198014
+Error: 5.01049868262271e-10

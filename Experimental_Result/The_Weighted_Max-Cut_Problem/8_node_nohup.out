@@ -1,0 +1,904 @@
+Running configuration:
+Namespace(atoms=None, charge=None, coords=None, depths=50, external_cycles=300, freeze_core=None, graph_dict='{\n    "0": {\n        "1": {\n            "weight": 3\n        },\n        "4": {\n            "weight": 5\n        }\n    },\n    "1": {\n        "0": {\n            "weight": 3\n        },\n        "2": {\n            "weight": 4\n        }\n    },\n    "2": {\n        "1": {\n            "weight": 4\n        },\n        "3": {\n            "weight": 6\n        }\n    },\n    "3": {\n        "2": {\n            "weight": 6\n        },\n        "4": {\n            "weight": 2\n        }\n    },\n    "4": {\n        "0": {\n            "weight": 5\n        },\n        "3": {\n            "weight": 2\n        },\n        "5": {\n            "weight": 7\n        }\n    },\n    "5": {\n        "4": {\n            "weight": 7\n        },\n        "6": {\n            "weight": 1\n        }\n    },\n    "6": {\n        "5": {\n            "weight": 1\n        },\n        "7": {\n            "weight": 3\n        }\n    },\n    "7": {\n        "6": {\n            "weight": 3\n        }\n    }\n}', internal_cycles=2000, mapper=None, multiplicity=None, problem='The Unweighted Max-Cut Problem', qubits=8, remove_orbitals=None)
+Loaded graph weights:
+{'0': {'1': {'weight': 3}, '4': {'weight': 5}}, '1': {'0': {'weight': 3}, '2': {'weight': 4}}, '2': {'1': {'weight': 4}, '3': {'weight': 6}}, '3': {'2': {'weight': 6}, '4': {'weight': 2}}, '4': {'0': {'weight': 5}, '3': {'weight': 2}, '5': {'weight': 7}}, '5': {'4': {'weight': 7}, '6': {'weight': 1}}, '6': {'5': {'weight': 1}, '7': {'weight': 3}}, '7': {'6': {'weight': 3}}}
+
+------------The 1 th architecture optimization------------
+Current optimal ground state energy -23.984361519765073
+------------The 2 th architecture optimization------------
+Current optimal ground state energy -23.984361519765073
+------------The 3 th architecture optimization------------
+Current optimal ground state energy -23.984361519765073
+------------The 4 th architecture optimization------------
+Current optimal ground state energy -25.422865194853152
+------------The 5 th architecture optimization------------
+Current optimal ground state energy -25.422865194853152
+------------The 6 th architecture optimization------------
+Current optimal ground state energy -25.422865194853152
+------------The 7 th architecture optimization------------
+Current optimal ground state energy -25.422865194853152
+------------The 8 th architecture optimization------------
+Current optimal ground state energy -25.422865194853152
+------------The 9 th architecture optimization------------
+Current optimal ground state energy -25.422865194853152
+------------The 10 th architecture optimization------------
+Current optimal ground state energy -25.422865194853152
+------------The 11 th architecture optimization------------
+Current optimal ground state energy -26.242353836923343
+------------The 12 th architecture optimization------------
+Current optimal ground state energy -26.242353836923343
+------------The 13 th architecture optimization------------
+Current optimal ground state energy -26.242353836923343
+------------The 14 th architecture optimization------------
+Current optimal ground state energy -26.242353836923343
+------------The 15 th architecture optimization------------
+Current optimal ground state energy -26.242353836923343
+------------The 16 th architecture optimization------------
+Current optimal ground state energy -26.695807937509134
+------------The 17 th architecture optimization------------
+Current optimal ground state energy -26.695807937509134
+------------The 18 th architecture optimization------------
+Current optimal ground state energy -26.695807937509134
+------------The 19 th architecture optimization------------
+Current optimal ground state energy -26.695807937509134
+------------The 20 th architecture optimization------------
+Current optimal ground state energy -26.695807937509134
+------------The 21 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 22 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 23 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 24 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 25 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 26 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 27 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 28 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 29 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 30 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 31 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 32 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 33 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 34 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 35 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 36 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 37 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 38 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 39 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 40 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 41 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 42 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 43 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 44 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 45 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 46 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 47 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 48 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 49 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 50 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 51 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 52 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 53 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 54 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 55 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 56 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 57 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 58 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 59 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 60 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 61 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 62 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 63 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 64 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 65 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 66 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 67 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 68 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 69 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 70 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 71 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 72 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 73 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 74 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 75 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 76 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 77 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 78 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 79 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 80 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 81 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 82 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 83 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 84 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 85 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 86 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 87 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 88 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 89 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 90 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 91 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 92 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 93 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 94 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 95 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 96 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 97 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 98 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 99 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 100 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 101 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 102 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 103 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 104 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 105 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 106 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 107 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 108 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 109 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 110 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 111 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 112 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 113 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 114 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 115 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 116 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 117 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 118 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 119 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 120 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 121 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 122 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 123 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 124 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 125 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 126 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 127 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 128 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 129 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 130 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 131 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 132 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 133 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 134 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 135 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 136 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 137 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 138 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 139 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 140 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 141 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 142 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 143 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 144 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 145 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 146 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 147 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 148 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 149 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 150 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 151 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 152 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 153 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 154 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 155 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 156 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 157 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 158 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 159 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 160 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 161 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 162 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 163 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 164 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 165 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 166 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 167 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 168 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 169 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 170 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 171 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 172 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 173 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 174 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 175 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 176 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 177 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 178 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 179 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 180 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 181 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 182 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 183 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 184 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 185 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 186 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 187 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 188 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 189 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 190 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 191 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 192 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 193 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 194 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 195 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 196 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 197 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 198 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 199 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 200 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 201 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 202 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 203 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 204 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 205 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 206 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 207 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 208 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 209 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 210 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 211 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 212 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 213 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 214 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 215 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 216 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 217 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 218 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 219 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 220 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 221 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 222 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 223 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 224 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 225 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 226 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 227 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 228 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 229 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 230 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 231 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 232 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 233 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 234 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 235 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 236 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 237 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 238 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 239 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 240 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 241 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 242 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 243 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 244 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 245 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 246 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 247 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 248 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 249 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 250 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 251 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 252 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 253 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 254 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 255 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 256 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 257 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 258 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 259 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 260 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 261 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 262 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 263 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 264 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 265 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 266 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 267 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 268 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 269 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 270 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 271 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 272 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 273 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 274 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 275 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 276 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 277 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 278 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 279 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 280 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 281 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 282 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 283 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 284 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 285 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 286 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 287 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 288 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 289 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 290 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 291 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 292 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 293 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 294 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 295 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 296 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 297 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 298 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 299 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 300 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+------------The 301 th architecture optimization------------
+Current optimal ground state energy -28.847192486487497
+Updated p1 : [-4.822068773680689, -8.0, -8.0, 6.261301523868875, -8.0, -8.0, 9.0, 5.563002074353916, -8.0, -8.0, 0.09980386053422485, -5.01321494175698, -8.0, 9.0, 9.0, -8.0, 9.0, 9.0, 9.0, 9.0, -8.0, -8.0, -8.0, -8.0, -7.276071712544928, 9.0, -8.0, -5.487889492312973, -8.0, -8.0, 8.954270334950177, -8.0, 9.0, 9.0, 9.0, -8.0, 9.0, -8.0, -8.0, -8.0, 9.0, -8.0, -8.0, 9.0, 9.0, 9.0, -8.0, 9.0, -8.0, 9.0, 9.0, -8.0, 9.0, 9.0, 9.0, -8.0, 9.0, -8.0, 9.0, -8.0, 9.0, 9.0, 9.0, 9.0, 9.0, -0.13262827619967688, -8.0, 9.0, 9.0, 9.0, -8.0, 9.0, 9.0, 9.0, 9.0, -8.0, 9.0, 9.0, 9.0, 9.0, -8.0, -8.0, 9.0, 9.0, 9.0, 9.0, -8.0, 9.0, -5.060947310396486, 2.91677348771646, -8.0, 9.0, 9.0, 9.0, -8.0, -8.0, 9.0, -8.0, -8.0, -8.0, -8.0, 9.0, -8.0, 9.0, 9.0, -8.0, 9.0, 9.0, 9.0, -8.0, 9.0, -8.0, -8.0, 9.0, -8.0, 9.0, -8.0, -8.0, -8.0, -8.0, 9.0, -8.0, -8.0, -8.0, 6.765467884017662, 9.0, 9.0, 9.0, 9.0, 9.0, -8.0, 9.0, 9.0, -8.0, 9.0, 9.0, 9.0, 9.0, 9.0, -8.0, 9.0, -8.0, 9.0, 9.0, 9.0, -8.0, -8.0, -8.0, 9.0, 9.0, 9.0, 9.0, -8.0, 9.0, 9.0, 9.0, -8.0, 9.0, -8.0, 0.28788374905494507, -8.0, 9.0, 9.0, 9.0, 9.0, -8.0, -8.0, 9.0, 9.0, -8.0, 9.0, -8.0, -8.0, -8.0, -8.0, 9.0, 8.964726537800463, 9.0, -8.0, 9.0, 9.0, 9.0, 9.0, -8.0, -8.0, -8.0, -8.0, 9.0, -8.0, -8.0, -8.0, -8.0, -8.0, -8.0, -8.0, -8.0, -8.0, -8.0, -3.0628976334541225, 9.0, 9.0, 9.0, -8.0, -8.0, 9.0, -8.0, -8.0, -8.0, -8.0, 9.0, -8.0, -8.0, 9.0, 9.0, 9.0, 5.458989224974882, -8.0, -8.0, 9.0, 9.0, 9.0, 7.436727741844253, -8.0, 9.0, 9.0, 9.0, -8.0, 9.0, 9.0, -8.0, -8.0, 9.0, 9.0, 6.195854628506636, -8.0, -8.0, 9.0, -8.0, -8.0, 9.0, -8.0, -8.0, 9.0, 9.0, -8.0, 9.0, 9.0, 9.0, -8.0, -8.0, 9.0, 9.0, 9.0, -8.0, 9.0, -8.0, -8.0, -8.0, -8.0, -8.0, 9.0, -8.0, -8.0, -8.0, -8.0, 9.0, -8.0, 9.0, -8.0, 9.0, 9.0, 9.0, -8.0, -8.0, 9.0, 9.0, 9.0, -8.0, -8.0, -8.0, 9.0, -8.0, -8.0, -8.0, -8.0, 8.48085667634313, -8.0, -8.0, 9.0, -8.0, 9.0, 9.0, 9.0, 9.0, -8.0, -0.6736645469565135, 9.0, -8.0, 9.0, 0.8669931122245487, -8.0, -8.0, -8.0, -8.0, 7.545745617106304, -8.0, -8.0, -8.0, -8.0, -6.1790593045017195, 0.056764373776228894, 9.0, -8.0, -8.0, 9.0, -8.0, 9.0, -4.807285893147895, -8.0, 9.0, 9.0, 9.0, 9.0, 7.852663431405972, -8.0, -8.0, -8.0, 8.895569174333296, -8.0, 9.0, 9.0, -8.0, 9.0, 9.0, -8.0, -8.0, -8.0, -8.0, -8.0, 9.0, 5.8654593945391404, -8.0, -8.0, 9.0, 9.0, -8.0, -8.0, -8.0, -8.0, 9.0, -8.0, 9.0, 9.0, 9.0, -8.0, 9.0, -8.0, -8.0, 9.0, -6.155069747905782, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, -8.0, -8.0, -8.0, -8.0, -8.0, 9.0, 9.0, -8.0, 9.0, 9.0, -8.0, -5.014939425655546, -8.0, 9.0, -8.0, 3.93559909425044, -8.0, 9.0, 8.10421070661284, -8.0, -8.0, -8.0, 9.0, -8.0, -8.0, 9.0, 9.0, 9.0, -8.0, -5.787236305040122, -8.0, 9.0]
+Optimal molecular ground state energy: -28.847192486487497
+Optimized angle parameters: [ 3.26729262  4.01505174  3.42971561  4.07718439  1.27728114  2.01103577
+  6.2573578   2.99757245  2.27304382  3.9694649   0.02849458  5.94963489
+  1.3359774   2.14064857  6.62993427  5.38514663  6.31055311  6.27711075
+  3.10261836  2.98220072  2.75300908  6.25827413  3.34302063  1.76598029
+  5.16737709 -0.64946952  3.60113617  2.95712772  6.30048106  3.24642371
+  6.29922076  6.65941843  6.38116195  3.51348678  5.28643583  1.80809457
+  3.54478867  5.63731862  0.43269423  0.73557404  1.27634808  3.40861391
+  5.54334129  3.15701598  2.82966437  1.11764684  3.39608802  1.9131139
+  1.55024746  3.53945823  4.6450948   4.582482    1.26114014  3.19929257
+  2.64423214  3.16435084  0.86313154  4.70016668  2.39156451  4.44855718
+  1.1348993   6.67638145  3.25700764  3.16901861  3.29895152  1.97206901
+  0.85638401  2.7826119   2.20151892  1.19582033  2.59109242  0.88893597
+  2.75039065  6.0597579   5.20398057  2.13728263  2.17070735  2.9080762
+  1.33463497  6.04336352  1.69964021  1.6384267   0.42584578  5.15540403
+  6.41560336  0.48822211  4.71843751  2.69017841  1.03450819  0.89441954
+  2.3933103   4.35726636  4.87337375  3.6865139   2.82374053  6.25073315
+  1.07960998  0.34594009  4.67861158  5.98465087  2.36445913  2.41028422
+  1.43881547  3.5784589   5.05565109  1.6923745   1.61069443  3.94936988
+  5.50179286  4.68556781  6.27231562  4.58640978  7.06384757  3.15518141
+  4.27963979  1.80455927  2.13804013  5.07149892  6.02872778  1.61350978
+  2.59057186  1.65859101  2.83598459  1.38584007  0.5206158   0.44988577
+  0.18096877]
+Depth: 46
+Final Statevector:
+ Statevector([ 1.87492476e-07+3.36171051e-05j,
+             -8.46486047e-07-1.42152876e-05j,
+             -2.60925978e-04+2.00723326e-05j,
+             -4.51898766e-05+4.19486924e-06j,
+              3.12601847e-04-2.36961354e-05j,
+              5.11718341e-05-2.01404392e-05j,
+             -4.24703870e-05-1.20946862e-06j,
+             -7.29462615e-06-2.68479505e-06j,
+              3.09324760e-04-4.53229524e-07j,
+             -2.50488281e-03-6.51052095e-05j,
+             -5.35959483e-03+8.34364407e-04j,
+             -8.23704648e-04+1.33668002e-04j,
+             -1.90061003e-05+1.34614178e-04j,
+              3.92693948e-04-1.05979080e-04j,
+             -4.04978515e-06-1.37869505e-04j,
+              1.60137449e-05-3.61450173e-05j,
+              6.47231671e-05+3.07999565e-05j,
+             -4.80977116e-05-5.97056009e-06j,
+              6.59934164e-04+1.26968700e-02j,
+              8.39054610e-05+1.98810806e-03j,
+             -3.00191985e-07+8.76199799e-06j,
+              9.38543365e-06-1.53767865e-05j,
+              3.95552614e-06-6.13830515e-07j,
+              2.50982928e-06-5.49476202e-07j,
+             -4.65665356e-04+2.77806114e-04j,
+              4.11923281e-04+3.12139191e-04j,
+             -4.89205762e-04+1.44615396e-03j,
+             -9.74192631e-04+6.93561639e-04j,
+             -1.48709494e-05+1.82209198e-04j,
+              2.37629809e-04-8.16416753e-06j,
+             -7.65523073e-03+2.94830257e-04j,
+             -1.22449772e-03-3.60488572e-05j,
+             -6.59657126e-05+2.76900537e-05j,
+              9.99565675e-05+9.40171707e-05j,
+              3.02827226e-04-3.83508076e-05j,
+              1.67520860e-05+5.80465331e-05j,
+              4.02384619e-06-4.33203543e-06j,
+             -2.48208085e-05-7.52747713e-07j,
+              1.84342565e-05-2.67268541e-06j,
+              1.80933488e-06+6.76235954e-07j,
+             -2.73361377e-04-1.37137306e-02j,
+              3.57162173e-04+2.88453474e-03j,
+             -7.50297762e-05-1.75462924e-04j,
+              2.94520633e-04+3.56213995e-04j,
+             -1.15623671e-04-7.43723875e-04j,
+              3.91557608e-04+6.90735831e-03j,
+              3.77550534e-05+2.42892334e-04j,
+              4.21577418e-05-1.01017345e-06j,
+             -5.18465795e-07-6.65181819e-05j,
+              4.29160997e-06+1.86800283e-05j,
+              5.17937971e-05-3.62765146e-07j,
+              9.84261983e-06+4.12970914e-08j,
+             -3.61971051e-06-1.35083798e-05j,
+              1.78387930e-06+3.42724851e-05j,
+             -2.27553188e-06-7.25275185e-05j,
+             -2.37592936e-06-8.67363407e-06j,
+              3.29777024e-04+6.85674976e-05j,
+             -1.00859914e-04+1.68012669e-04j,
+             -1.86755783e-02+8.11351783e-04j,
+             -3.17997288e-03-1.41374533e-04j,
+              2.62222647e-05+3.68447490e-05j,
+             -1.62414541e-04-1.73761547e-05j,
+             -4.25380121e-04+3.28459461e-05j,
+              9.47623818e-05+3.25054303e-05j,
+              3.79011646e-05-2.94784255e-06j,
+              4.11957586e-05-2.02596392e-05j,
+             -3.76520008e-05+4.47984455e-03j,
+             -4.38100820e-05+7.53210603e-04j,
+              1.28355640e-05+3.97653117e-06j,
+             -4.73729178e-06+2.44551436e-08j,
+              7.44972425e-06+1.37291969e-05j,
+              1.31420416e-06+3.70008714e-06j,
+              5.15282696e-04+4.31715699e-04j,
+             -8.43267814e-06-1.43598588e-04j,
+             -2.35323199e-02+1.10099874e-03j,
+             -3.98351693e-03-2.45736859e-05j,
+              2.38439506e-02-1.97705509e-03j,
+              3.94252688e-03+4.77099267e-04j,
+             -2.05034325e-04-6.84041481e-05j,
+             -2.49499033e-05-7.41808187e-06j,
+             -2.67302484e-05-6.02275520e-05j,
+             -6.23808697e-05-2.17941346e-05j,
+             -1.12819086e-04-3.96881915e-04j,
+             -5.21491843e-05-6.27726337e-05j,
+              1.09436528e-04-2.64388662e-06j,
+              1.53701601e-05+3.26553675e-06j,
+             -1.19873228e-04+1.83145967e-05j,
+             -1.80473289e-05+3.40458290e-06j,
+              5.75893764e-03-2.93301505e-04j,
+              1.24558844e-03+2.43125226e-04j,
+              4.09703570e-02+9.80881219e-01j,
+             -1.34687727e-03+1.65602377e-01j,
+              4.07319575e-05+5.36883195e-04j,
+             -1.32672743e-05+9.20923878e-05j,
+              1.11314916e-04+1.45397423e-05j,
+              2.92365466e-06-1.05151498e-04j,
+             -2.16528903e-04-7.43670393e-06j,
+              1.31137518e-04+8.00298755e-05j,
+             -1.87988828e-04-2.28413109e-03j,
+              9.38677705e-08-3.81071725e-04j,
+             -4.96378161e-05+1.71494458e-05j,
+             -1.60523803e-05-8.75080189e-05j,
+             -9.26883633e-07-2.31778383e-05j,
+             -1.90261116e-06-3.77004790e-06j,
+             -7.19451582e-03+2.58458581e-03j,
+             -2.45167751e-03+7.61699431e-03j,
+              3.24323837e-02-1.68076379e-03j,
+              5.54672441e-03+2.87391229e-04j,
+              1.14185086e-05-1.45786975e-04j,
+             -2.35086532e-05-9.49990197e-06j,
+              1.34956704e-04-1.07190474e-04j,
+              2.32954747e-05-2.16818451e-05j,
+             -4.65880034e-05+5.93085422e-06j,
+             -1.72657612e-05+3.79680617e-05j,
+              1.73278636e-06-2.12523132e-03j,
+              1.54677554e-05-3.56273715e-04j,
+             -6.35398153e-05+6.25011490e-06j,
+             -8.53899046e-06-9.18391877e-07j,
+             -4.36821257e-06+3.43636796e-06j,
+              8.54100128e-07-3.61024648e-06j,
+             -8.18110204e-05-1.41902906e-04j,
+             -2.19644195e-04+5.56438112e-05j,
+              2.31690189e-03+5.37237599e-04j,
+              4.09320594e-04+1.30011499e-04j,
+             -9.15093778e-05-7.46352900e-04j,
+             -2.11379538e-05-1.23048517e-04j,
+             -2.65465964e-03-5.72712636e-03j,
+             -6.23085233e-04-1.10956650e-03j,
+             -1.33284945e-05-4.10785542e-05j,
+             -3.97276785e-05+6.06245818e-06j,
+             -1.95897973e-04-2.09876461e-04j,
+             -3.84235210e-05-3.34378213e-05j,
+              2.17761439e-04-2.08088691e-05j,
+              2.90556519e-05+1.63337804e-05j,
+             -5.78579894e-06+1.84119919e-05j,
+              6.58110913e-07+4.71703108e-06j,
+              3.45295783e-05-2.88155254e-05j,
+              1.49979580e-04+1.73358234e-04j,
+             -3.93647066e-03-4.05967393e-05j,
+             -5.62633233e-04-6.95267929e-05j,
+              1.28260814e-03-1.44485070e-04j,
+              1.24496531e-04-3.90059717e-05j,
+              1.19653242e-04+2.88375644e-04j,
+             -5.04211652e-06+5.16611092e-05j,
+              1.47722963e-04-6.31921135e-05j,
+             -1.84218996e-05-3.74218022e-05j,
+              4.08886935e-04+8.71992924e-03j,
+              1.08691994e-04+1.24144281e-03j,
+              5.46420832e-06+3.34898794e-06j,
+              1.75066520e-06-1.14288070e-06j,
+              7.67682119e-06+5.14259056e-07j,
+             -1.25954929e-06+1.74861280e-06j,
+             -1.62212679e-02+1.51951919e-03j,
+             -2.90842654e-03-5.02302709e-04j,
+              3.76389841e-03-4.78257980e-02j,
+             -1.62119741e-03-7.76368454e-03j,
+              1.01079568e-05+1.69272319e-04j,
+              1.00746314e-05+2.40943664e-05j,
+             -2.83452792e-03+2.92439916e-04j,
+             -3.56839951e-04+4.82101490e-05j,
+             -2.58835732e-05+1.17623392e-05j,
+              2.46507602e-04+5.01764099e-05j,
+              2.00976575e-04-3.38768778e-03j,
+              6.16645411e-05-5.71547671e-04j,
+             -8.99407122e-06-5.25387726e-06j,
+              3.16799453e-05+4.98955476e-06j,
+              7.84420662e-06-1.17001232e-06j,
+              2.32213772e-06-2.13204141e-06j,
+             -2.88240439e-02+2.04347154e-02j,
+              1.39592426e-02+1.19501098e-03j,
+             -1.49658710e-02+8.08064330e-04j,
+             -2.65849721e-03-1.48513897e-05j,
+              5.77861649e-05-1.86540364e-04j,
+             -6.73379713e-05+7.31175361e-05j,
+              2.82246590e-05+9.27652724e-05j,
+              1.22883016e-05+9.24806221e-06j,
+             -9.95679129e-05+8.15010878e-05j,
+              6.81149079e-05+1.40406088e-05j,
+              5.00573651e-05+1.08002877e-04j,
+              1.13537134e-05+1.72139834e-05j,
+             -8.87120515e-05-1.02201445e-06j,
+             -1.40927381e-05-1.54941078e-06j,
+              4.79946860e-06-5.06740960e-05j,
+             -5.66601569e-07-4.02430766e-06j,
+             -4.97829354e-04-7.50380665e-04j,
+             -5.28757872e-05+3.90666691e-04j,
+              1.24377142e-02-3.99873876e-04j,
+              2.45340091e-03+2.07910487e-04j,
+              1.28779072e-04+2.42743658e-04j,
+              8.13059497e-06+2.42801773e-05j,
+              1.44313209e-04+4.85327550e-04j,
+             -4.29963027e-05-3.77047779e-04j,
+             -3.32218586e-06-3.60343450e-07j,
+             -5.16333963e-05+2.14119254e-06j,
+              2.46069320e-05+1.93732985e-05j,
+              4.77374107e-05-7.61043218e-05j,
+              1.55600329e-05-9.50721387e-07j,
+              1.07180212e-05+5.06283508e-07j,
+             -3.12619154e-07+2.73859010e-06j,
+              2.20273117e-07-2.11056174e-06j,
+             -5.38779148e-04-5.01065165e-04j,
+             -1.37960622e-04-6.51998000e-04j,
+              1.70568422e-04+5.87888593e-05j,
+              4.53313157e-04+1.62653569e-04j,
+              5.36305128e-04-1.27579880e-04j,
+             -4.12623218e-04-1.31553425e-03j,
+             -5.99547251e-06-1.05272936e-04j,
+              1.95637324e-05-1.59854743e-06j,
+             -2.21440544e-04+7.07075067e-05j,
+             -7.14131530e-05-1.51944365e-05j,
+              4.26814786e-05-6.02478909e-04j,
+             -2.85708162e-05-9.33257555e-05j,
+              2.09975492e-06+6.46036841e-06j,
+              5.22896389e-06-2.97967143e-05j,
+             -1.11484968e-04+5.11784709e-06j,
+             -1.63133849e-05+1.43675704e-07j,
+             -1.89919235e-04-1.61579509e-04j,
+             -2.18328096e-04-5.47905898e-04j,
+              1.30748311e-02+2.86829637e-03j,
+              1.09982388e-02-1.71854430e-02j,
+              2.87113743e-06-1.21596287e-04j,
+             -6.83959579e-05+5.91900363e-05j,
+              1.85796975e-04+6.73629340e-05j,
+              2.33722623e-04-1.59549878e-04j,
+             -3.71182411e-04+1.41740060e-04j,
+              1.81715104e-04+4.48205939e-05j,
+             -2.21058524e-04-4.46818892e-06j,
+             -5.60508943e-05+4.27605101e-05j,
+             -3.50486525e-06-1.21726692e-05j,
+              4.15307764e-06+6.45111179e-05j,
+              3.50082093e-05+2.62792652e-06j,
+              5.79793291e-06+3.59709330e-06j,
+              2.62139742e-03-5.26410262e-04j,
+              1.41373136e-02-9.63318321e-04j,
+              3.02843936e-04-4.18054110e-04j,
+             -6.27247743e-04-4.34784572e-04j,
+              2.83948353e-04-1.76342270e-04j,
+             -2.53237477e-03-1.78448415e-04j,
+              6.08518010e-06-7.58860443e-05j,
+             -1.36471016e-04+3.47983210e-06j,
+              9.01014840e-06-9.95666025e-06j,
+              7.25948256e-05+5.62453653e-06j,
+             -1.29596223e-05-1.11847623e-05j,
+             -2.17248590e-05+3.53685945e-05j,
+              1.96207487e-06+2.67122095e-06j,
+             -1.30802010e-05+3.33898792e-06j,
+             -2.21525119e-06+6.98381899e-06j,
+             -9.93715204e-07-4.60451645e-06j,
+             -4.95808816e-05-3.93593514e-04j,
+             -1.60239587e-05+3.36328766e-04j,
+              9.30464503e-04-8.70505978e-05j,
+              1.74654584e-04-9.20200072e-05j,
+              5.98542908e-06-2.79527731e-05j,
+             -6.97998794e-05-4.15213564e-05j,
+              1.66398802e-03+2.83316979e-05j,
+              3.20953680e-04+6.49508133e-04j],
+            dims=(2, 2, 2, 2, 2, 2, 2, 2))
+Standard: -29.0
+Error: 0.15280751351250288
+
+The value of the Weighted Max-Cut problem is: 29.0
+The corresponding grouping scheme is as follows:
+[0 1 0 1 1 0 1 0]
+[1 0 1 0 0 1 0 1]
+
+State dictionary:
+{'00000000': 1.1301449100218185e-09, '00000001': 2.0279094143409128e-10, '00000010': 6.848526463186921e-08, '00000011': 2.059721872755378e-09, '00000100': 9.828142170775139e-08, '00000101': 3.024193893294736e-09, '00000110': 1.8051965894598238e-09, '00000111': 6.041969512299225e-11, '00001000': 9.568201278790193e-08, '00001001': 6.27867658759272e-06, '00001010': 2.9421420731488235e-05, '00001011': 6.963564812658463e-07, '00001100': 1.8482208816439126e-08, '00001101': 1.6544010184388672e-07, '00001110': 1.9024401239597114e-08, '00001111': 1.5629023009252668e-09, '00010000': 5.1377256774048416e-09, '00010001': 2.349037452116834e-09, '00010010': 0.0001616460207107442, '00010011': 3.959613791756747e-06, '00010100': 7.686272406710102e-11, '00010101': 3.245319289806719e-10, '00010110': 1.6022974915239263e-11, '00010111': 6.6011670959120316e-12, '00011000': 2.9402046134309674e-07, '00011001': 2.671116642860946e-07, '00011010': 2.3306835581358732e-06, '00011011': 1.4300790298784686e-06, '00011100': 3.3421337037960334e-08, '00011101': 5.653457957867748e-08, '00011110': 5.868948244056439e-05, '00011111': 1.5006941786146515e-06, '00100000': 5.118214312072118e-09, '00100001': 1.8830543765379026e-08, '00100010': 9.317511345917322e-08, '00100011': 3.6500323887972543e-09, '00100100': 3.4957869132340405e-11, '00100101': 6.166391651595696e-10, '00100110': 3.4696506027686656e-10, '00100111': 3.7309877731046525e-12, '00101000': 0.00018814113358321154, '00101001': 8.448105501174631e-06, '00101010': 3.6416704914408674e-08, '00101011': 2.1363081345677472e-07, '00101100': 5.664940355616356e-07, '00101101': 4.7864916194981225e-05, '00101110': 6.042213004924242e-08, '00101111': 1.7782956411570428e-09, '00110000': 4.424937326139554e-09, '00110001': 3.67361372530502e-10, '00110010': 2.6827290129955637e-09, '00110011': 9.68788706641916e-11, '00110100': 1.9557863035998948e-10, '00110101': 1.1777854588669528e-09, '00110110': 5.265418990716894e-09, '00110111': 8.087696830125507e-11, '00111000': 1.1345438729186834e-07, '00111001': 3.84009792569601e-08, '00111010': 0.00034943551754254977, '00111011': 1.0132214277597994e-05, '00111100': 2.045142694121994e-09, '00111101': 2.668041389056141e-08, '00111110': 1.8202710371392659e-07, '00111111': 1.003651200944678e-08, '01000000': 1.445188050061209e-09, '01000001': 2.1075435076711446e-09, '01000010': 2.007042487124108e-05, '01000011': 5.692455350605068e-07, '01000100': 1.8056450400109383e-10, '01000101': 2.244253144418213e-11, '01000110': 2.4398924013757143e-10, '01000111': 1.5417777434572863e-11, '01001000': 4.518947006728517e-07, '01001001': 2.069166443031889e-08, '01001010': 0.0005549822763697957, '01001011': 1.586901096267736e-05, '01001100': 0.0005724427286905035, '01001101': 1.5771141938460773e-05, '01001110': 4.671820191203135e-08, '01001111': 6.775256139973498e-10, '01010000': 4.341864194604195e-09, '01010001': 4.366357204614523e-09, '01010010': 1.7024340048710882e-07, '01010011': 6.659940964429612e-09, '01010100': 1.1983343871972774e-08, '01010101': 2.469055530650597e-10, '01010110': 1.4705015143556965e-08, '01010111': 3.372972655521561e-10, '01011000': 3.325138851039565e-05, '01011001': 1.6106004439321618e-06, '01011010': 0.9638065351318092, '01011011': 0.027425961312407803, '01011100': 2.8990265746576137e-07, '01011101': 8.657028462146721e-09, '01011110': 1.2602414526666557e-08, '01011111': 1.106538520193902e-08, '01100000': 4.694007046486348e-08, '01100001': 2.360182946675709e-08, '01100010': 5.252594649989159e-06, '01100011': 1.452156686711612e-07, '01100100': 2.758016283069524e-09, '01100101': 7.915332286727111e-09, '01100110': 5.380713013498799e-10, '01100111': 1.783319039829376e-11, '01101000': 5.8441141725928666e-05, '01101001': 6.402932503068774e-05, '01101010': 0.001054684479975682, '01101011': 3.0848745444919456e-05, '01101100': 2.138422447010653e-08, '01101101': 6.429049125725751e-10, '01101110': 2.9703109576530967e-08, '01101111': 1.0127815472698035e-09, '01110000': 2.2056170919094957e-09, '01110001': 1.7396802164845813e-09, '01110010': 4.5166111763941464e-06, '01110011': 1.2717021131902397e-07, '01110100': 4.076372067876504e-09, '01110101': 7.375780179319176e-11, '01110110': 3.0889905849410684e-11, '01110111': 1.3763366710038723e-11, '01111000': 2.6829477859069793e-08, '01111001': 5.133980625174093e-08, '01111010': 5.656658616871323e-06, '01111011': 1.8444633883250384e-07, '01111100': 5.654166175703648e-07, '01111101': 1.558775053109746e-08, '01111110': 3.9847194138221876e-05, '01111111': 1.6193730257006095e-06, '10000000': 1.865096383609717e-09, '10000001': 1.6150418358501118e-09, '10000010': 8.24241449257932e-08, '10000011': 2.594454857788169e-09, '10000100': 4.7853053444267006e-08, '10000101': 1.111023289545345e-09, '10000110': 3.7247691503970586e-10, '10000111': 2.2683492154692034e-11, '10001000': 2.0226262801722484e-09, '10001001': 5.2546951645924014e-08, '10001010': 1.5497449380060023e-05, '10001011': 3.2139012980433766e-07, '10001100': 1.6659595693662844e-06, '10001101': 1.7020851992604105e-08, '10001110': 9.74774100095783e-08, '10001111': 2.694293139232329e-09, '10010000': 2.581531706264536e-08, '10010001': 1.7397576676040202e-09, '10010010': 7.620435446791885e-05, '10010011': 1.5529941933727955e-06, '10010100': 4.1073292757696505e-11, '10010101': 4.371004956584315e-12, '10010110': 5.919804603529506e-11, '10010111': 4.6441111352084e-12, '10011000': 0.00026543847082384346, '10011001': 8.711252966775048e-06, '10011010': 0.002301473884629821, '10011011': 6.290307864648328e-05, '10011100': 2.8755288610105504e-08, '10011101': 6.820366926523682e-10, '10011110': 8.12006961926319e-06, '10011111': 1.296589692088811e-07, '10100000': 8.083119864049341e-10, '10100001': 6.328366975362081e-08, '10100010': 1.1516820053974096e-05, '10100011': 3.304692563234993e-07, '10100100': 1.0849654326437259e-10, '10100101': 1.0285145914153238e-09, '10100110': 6.290050636248243e-11, '10100111': 9.937924175971178e-12, '10101000': 0.0012484031013306114, '10101001': 0.0001962885057467091, '10101010': 0.0002246302619826642, '10101011': 7.067827990970878e-06, '10101100': 3.8136548226180694e-08, '10101101': 9.880576465379186e-09, '10101110': 9.402027141814044e-09, '10101111': 2.365290109778485e-10, '10110000': 1.65561966037711e-08, '10110001': 4.836779378562152e-09, '10110010': 1.41703612542166e-08, '10110011': 4.2522803172790224e-10, '10110100': 7.870872596367354e-09, '10110101': 2.0100594028117476e-10, '10110110': 2.590898909010249e-09, '10110111': 1.651608946056634e-11, '10111000': 8.109052087693791e-07, '10111001': 1.5541631206306373e-07, '10111010': 0.0001548566344730421, '10111011': 6.06240278471979e-06, '10111100': 7.550853272693416e-08, '10111101': 6.556335823861894e-10, '10111110': 2.5636913350040657e-07, '10111111': 1.4401371006225807e-07, '11000000': 1.1166766306917793e-11, '11000001': 2.670592316977323e-09, '11000010': 9.80825796960353e-10, '11000011': 8.070728172957725e-09, '11000100': 2.430184959605066e-10, '11000101': 1.151323011087172e-10, '11000110': 7.597606486599483e-12, '11000111': 4.5029911226879375e-12, '11001000': 5.413492700459723e-07, '11001001': 4.4413452464879377e-07, '11001010': 3.2549716710170474e-08, '11001011': 2.3194900150238568e-07, '11001100': 3.038998163572541e-07, '11001101': 1.9008882870942164e-06, '11001110': 1.1118336792153529e-08, '11001111': 3.852949797211932e-10, '11010000': 5.403546595887282e-08, '11010001': 5.33070931710184e-09, '11010010': 3.648025440293233e-07, '11010011': 9.52598817075614e-09, '11010100': 4.614533068637973e-11, '11010101': 9.151862491332022e-10, '11010110': 1.2455090503670987e-08, '11010111': 2.661471699466272e-10, '11011000': 6.217725371291456e-08, '11011001': 3.4786803028089985e-07, '11011010': 0.0001791783331177223, '11011011': 0.0004163007089171057, '11011100': 1.4793900528168506e-08, '11011101': 8.181467449893724e-09, '11011110': 3.905828080709461e-08, '11011111': 8.008242820485903e-08, '11100000': 1.5786662702729634e-07, '11100001': 3.5029264694727775e-08, '11100010': 4.888683572042375e-08, '11100011': 4.970163977563934e-09, '11100100': 1.604579568626024e-10, '11100101': 4.178932385537265e-09, '11100110': 1.2324807189482134e-09, '11100111': 4.655510626679454e-11, '11101000': 7.148832216654346e-06, '11101001': 0.00020079161719909969, '11101010': 2.664836884430053e-07, '11101011': 5.824773550060409e-07, '11101100': 1.1172326343678617e-07, '11101101': 6.4447658354242826e-06, '11101110': 5.7957211327429146e-09, '11101111': 1.8636447443082395e-08, '11110000': 1.8031785746019552e-10, '11110001': 5.301644116279515e-09, '11110010': 2.930507167917253e-10, '11110011': 1.7229069763608468e-09, '11110100': 1.0985159156578486e-11, '11110101': 1.8224049762908536e-10, '11110110': 5.3681065532637956e-11, '11110111': 2.218904166898587e-11, '11111000': 1.573741182628036e-07, '11111001': 1.1337380584422016e-07, '11111010': 8.733419986689495e-07, '11111011': 3.897190550297363e-08, '11111100': 8.171828825480155e-10, '11111101': 6.596046205499369e-09, '11111110': 2.769658813117753e-06, '11111111': 5.248720794641537e-07}
+Analog measurement results:
+{'01001100': 1, '01011010': 985, '01011011': 33, '01101010': 1, '10011010': 1, '10101000': 1, '10101010': 1, '11011010': 1}
+Full_results:
+{'00000000': 0, '00000001': 0, '00000010': 0, '00000011': 0, '00000100': 0, '00000101': 0, '00000110': 0, '00000111': 0, '00001000': 0, '00001001': 0, '00001010': 0, '00001011': 0, '00001100': 0, '00001101': 0, '00001110': 0, '00001111': 0, '00010000': 0, '00010001': 0, '00010010': 0, '00010011': 0, '00010100': 0, '00010101': 0, '00010110': 0, '00010111': 0, '00011000': 0, '00011001': 0, '00011010': 0, '00011011': 0, '00011100': 0, '00011101': 0, '00011110': 0, '00011111': 0, '00100000': 0, '00100001': 0, '00100010': 0, '00100011': 0, '00100100': 0, '00100101': 0, '00100110': 0, '00100111': 0, '00101000': 0, '00101001': 0, '00101010': 0, '00101011': 0, '00101100': 0, '00101101': 0, '00101110': 0, '00101111': 0, '00110000': 0, '00110001': 0, '00110010': 0, '00110011': 0, '00110100': 0, '00110101': 0, '00110110': 0, '00110111': 0, '00111000': 0, '00111001': 0, '00111010': 0, '00111011': 0, '00111100': 0, '00111101': 0, '00111110': 0, '00111111': 0, '01000000': 0, '01000001': 0, '01000010': 0, '01000011': 0, '01000100': 0, '01000101': 0, '01000110': 0, '01000111': 0, '01001000': 0, '01001001': 0, '01001010': 0, '01001011': 0, '01001100': 1, '01001101': 0, '01001110': 0, '01001111': 0, '01010000': 0, '01010001': 0, '01010010': 0, '01010011': 0, '01010100': 0, '01010101': 0, '01010110': 0, '01010111': 0, '01011000': 0, '01011001': 0, '01011010': 985, '01011011': 33, '01011100': 0, '01011101': 0, '01011110': 0, '01011111': 0, '01100000': 0, '01100001': 0, '01100010': 0, '01100011': 0, '01100100': 0, '01100101': 0, '01100110': 0, '01100111': 0, '01101000': 0, '01101001': 0, '01101010': 1, '01101011': 0, '01101100': 0, '01101101': 0, '01101110': 0, '01101111': 0, '01110000': 0, '01110001': 0, '01110010': 0, '01110011': 0, '01110100': 0, '01110101': 0, '01110110': 0, '01110111': 0, '01111000': 0, '01111001': 0, '01111010': 0, '01111011': 0, '01111100': 0, '01111101': 0, '01111110': 0, '01111111': 0, '10000000': 0, '10000001': 0, '10000010': 0, '10000011': 0, '10000100': 0, '10000101': 0, '10000110': 0, '10000111': 0, '10001000': 0, '10001001': 0, '10001010': 0, '10001011': 0, '10001100': 0, '10001101': 0, '10001110': 0, '10001111': 0, '10010000': 0, '10010001': 0, '10010010': 0, '10010011': 0, '10010100': 0, '10010101': 0, '10010110': 0, '10010111': 0, '10011000': 0, '10011001': 0, '10011010': 1, '10011011': 0, '10011100': 0, '10011101': 0, '10011110': 0, '10011111': 0, '10100000': 0, '10100001': 0, '10100010': 0, '10100011': 0, '10100100': 0, '10100101': 0, '10100110': 0, '10100111': 0, '10101000': 1, '10101001': 0, '10101010': 1, '10101011': 0, '10101100': 0, '10101101': 0, '10101110': 0, '10101111': 0, '10110000': 0, '10110001': 0, '10110010': 0, '10110011': 0, '10110100': 0, '10110101': 0, '10110110': 0, '10110111': 0, '10111000': 0, '10111001': 0, '10111010': 0, '10111011': 0, '10111100': 0, '10111101': 0, '10111110': 0, '10111111': 0, '11000000': 0, '11000001': 0, '11000010': 0, '11000011': 0, '11000100': 0, '11000101': 0, '11000110': 0, '11000111': 0, '11001000': 0, '11001001': 0, '11001010': 0, '11001011': 0, '11001100': 0, '11001101': 0, '11001110': 0, '11001111': 0, '11010000': 0, '11010001': 0, '11010010': 0, '11010011': 0, '11010100': 0, '11010101': 0, '11010110': 0, '11010111': 0, '11011000': 0, '11011001': 0, '11011010': 1, '11011011': 0, '11011100': 0, '11011101': 0, '11011110': 0, '11011111': 0, '11100000': 0, '11100001': 0, '11100010': 0, '11100011': 0, '11100100': 0, '11100101': 0, '11100110': 0, '11100111': 0, '11101000': 0, '11101001': 0, '11101010': 0, '11101011': 0, '11101100': 0, '11101101': 0, '11101110': 0, '11101111': 0, '11110000': 0, '11110001': 0, '11110010': 0, '11110011': 0, '11110100': 0, '11110101': 0, '11110110': 0, '11110111': 0, '11111000': 0, '11111001': 0, '11111010': 0, '11111011': 0, '11111100': 0, '11111101': 0, '11111110': 0, '11111111': 0}
