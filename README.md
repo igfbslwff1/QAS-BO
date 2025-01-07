@@ -179,7 +179,7 @@ Analog measurement results:
 <div style="text-align: center;">
   <img src="./Readme_pic/4_UMC.png" alt="Example Image" width="250">
 </div>
-![image](https://github.com/igfbslwff1/QAS-BO/blob/main/Readme_pic/4_UMC.png)
+
 ### 6 node graph
 
 #### Command
